@@ -1,0 +1,289 @@
+[
+  {
+    "name": "admin-bulletin",
+    "path": "/admin-bulletin",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\index.vue",
+    "chunkName": "pages/admin-bulletin/index",
+    "_name": "_b5095080"
+  },
+  {
+    "name": "bulletin",
+    "path": "/bulletin",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\bulletin\\\\index.vue",
+    "chunkName": "pages/bulletin/index",
+    "_name": "_c020f904"
+  },
+  {
+    "name": "cabinet",
+    "path": "/cabinet",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\cabinet\\\\index.vue",
+    "chunkName": "pages/cabinet/index",
+    "_name": "_2d2c4997"
+  },
+  {
+    "name": "calendar",
+    "path": "/calendar",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\calendar\\\\index.vue",
+    "chunkName": "pages/calendar/index",
+    "_name": "_c680a4f2"
+  },
+  {
+    "name": "doctor-entries",
+    "path": "/doctor-entries",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\doctor-entries\\\\index.vue",
+    "chunkName": "pages/doctor-entries/index",
+    "_name": "_7bab5023"
+  },
+  {
+    "name": "entries",
+    "path": "/entries",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\entries\\\\index.vue",
+    "chunkName": "pages/entries/index",
+    "_name": "_62e2145f"
+  },
+  {
+    "name": "forms",
+    "path": "/forms",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\forms\\\\index.vue",
+    "chunkName": "pages/forms/index",
+    "_name": "_2fdba0a0"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_46f72fdc"
+  },
+  {
+    "name": "observations",
+    "path": "/observations",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\observations\\\\index.vue",
+    "chunkName": "pages/observations/index",
+    "_name": "_327af5de"
+  },
+  {
+    "name": "patients",
+    "path": "/patients",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\index.vue",
+    "chunkName": "pages/patients/index",
+    "_name": "_7f5b50b7"
+  },
+  {
+    "name": "review",
+    "path": "/review",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\review\\\\index.vue",
+    "chunkName": "pages/review/index",
+    "_name": "_4e813026"
+  },
+  {
+    "name": "statistics",
+    "path": "/statistics",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\statistics\\\\index.vue",
+    "chunkName": "pages/statistics/index",
+    "_name": "_9625e87c"
+  },
+  {
+    "name": "toleranceGroups",
+    "path": "/toleranceGroups",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\toleranceGroups\\\\index.vue",
+    "chunkName": "pages/toleranceGroups/index",
+    "_name": "_0471030e"
+  },
+  {
+    "name": "users",
+    "path": "/users",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\users\\\\index.vue",
+    "chunkName": "pages/users/index",
+    "_name": "_01bda5b2"
+  },
+  {
+    "name": "admin-bulletin-create",
+    "path": "/admin-bulletin/create",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\create.vue",
+    "chunkName": "pages/admin-bulletin/create",
+    "_name": "_31a3eafe"
+  },
+  {
+    "name": "admin-bulletin-edit",
+    "path": "/admin-bulletin/edit",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\edit\\\\index.vue",
+    "chunkName": "pages/admin-bulletin/edit/index",
+    "_name": "_34c6a914"
+  },
+  {
+    "name": "admin-bulletin-statistic",
+    "path": "/admin-bulletin/statistic",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\statistic\\\\index.vue",
+    "chunkName": "pages/admin-bulletin/statistic/index",
+    "_name": "_3a59d484"
+  },
+  {
+    "name": "cabinet-create",
+    "path": "/cabinet/create",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\cabinet\\\\create.vue",
+    "chunkName": "pages/cabinet/create",
+    "_name": "_bfdd97f2"
+  },
+  {
+    "name": "doctor-entries-create",
+    "path": "/doctor-entries/create",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\doctor-entries\\\\create.vue",
+    "chunkName": "pages/doctor-entries/create",
+    "_name": "_2172fefb"
+  },
+  {
+    "name": "doctor-entries-form",
+    "path": "/doctor-entries/form",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\doctor-entries\\\\form\\\\index.vue",
+    "chunkName": "pages/doctor-entries/form/index",
+    "_name": "_53c352c2"
+  },
+  {
+    "name": "entries-create",
+    "path": "/entries/create",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\entries\\\\create.vue",
+    "chunkName": "pages/entries/create",
+    "_name": "_2114c23f"
+  },
+  {
+    "name": "entries-statistic",
+    "path": "/entries/statistic",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\entries\\\\statistic\\\\index.vue",
+    "chunkName": "pages/entries/statistic/index",
+    "_name": "_7dfb4e85"
+  },
+  {
+    "name": "forms-create",
+    "path": "/forms/create",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\forms\\\\create.vue",
+    "chunkName": "pages/forms/create",
+    "_name": "_196683c4"
+  },
+  {
+    "name": "observations-create",
+    "path": "/observations/create",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\observations\\\\create.vue",
+    "chunkName": "pages/observations/create",
+    "_name": "_449810a0"
+  },
+  {
+    "name": "patients-complaint",
+    "path": "/patients/complaint",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\complaint\\\\index.vue",
+    "chunkName": "pages/patients/complaint/index",
+    "_name": "_d8e25e1c"
+  },
+  {
+    "name": "patients-create",
+    "path": "/patients/create",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\create.vue",
+    "chunkName": "pages/patients/create",
+    "_name": "_d879de32"
+  },
+  {
+    "name": "patients-entries",
+    "path": "/patients/entries",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\index.vue",
+    "chunkName": "pages/patients/entries/index",
+    "_name": "_5bcea0ad"
+  },
+  {
+    "name": "users-create",
+    "path": "/users/create",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\users\\\\create.vue",
+    "chunkName": "pages/users/create",
+    "_name": "_0cb8c277"
+  },
+  {
+    "name": "patients-entries-create",
+    "path": "/patients/entries/create",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\create.vue",
+    "chunkName": "pages/patients/entries/create",
+    "_name": "_45b9bfb1"
+  },
+  {
+    "name": "patients-entries-result",
+    "path": "/patients/entries/result",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\result\\\\index.vue",
+    "chunkName": "pages/patients/entries/result/index",
+    "_name": "_31d385f0"
+  },
+  {
+    "name": "patients-entries-result-form",
+    "path": "/patients/entries/result/form",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\result\\\\form.vue",
+    "chunkName": "pages/patients/entries/result/form",
+    "_name": "_69a6d116"
+  },
+  {
+    "name": "patients-entries-id",
+    "path": "/patients/entries/:id",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\_id.vue",
+    "chunkName": "pages/patients/entries/_id",
+    "_name": "_64122b56"
+  },
+  {
+    "name": "admin-bulletin-id",
+    "path": "/admin-bulletin/:id?",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\_id.vue",
+    "chunkName": "pages/admin-bulletin/_id",
+    "_name": "_637c4a28"
+  },
+  {
+    "name": "bulletin-id",
+    "path": "/bulletin/:id",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\bulletin\\\\_id.vue",
+    "chunkName": "pages/bulletin/_id",
+    "_name": "_50376534"
+  },
+  {
+    "name": "cabinet-id",
+    "path": "/cabinet/:id",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\cabinet\\\\_id.vue",
+    "chunkName": "pages/cabinet/_id",
+    "_name": "_24c47482"
+  },
+  {
+    "name": "doctor-entries-id",
+    "path": "/doctor-entries/:id?",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\doctor-entries\\\\_id.vue",
+    "chunkName": "pages/doctor-entries/_id",
+    "_name": "_7904ff4b"
+  },
+  {
+    "name": "entries-id",
+    "path": "/entries/:id",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\entries\\\\_id.vue",
+    "chunkName": "pages/entries/_id",
+    "_name": "_6a57a287"
+  },
+  {
+    "name": "forms-id",
+    "path": "/forms/:id",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\forms\\\\_id.vue",
+    "chunkName": "pages/forms/_id",
+    "_name": "_3dcd69f0"
+  },
+  {
+    "name": "observations-id",
+    "path": "/observations/:id",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\observations\\\\_id.vue",
+    "chunkName": "pages/observations/_id",
+    "_name": "_8d2e5074"
+  },
+  {
+    "name": "patients-id",
+    "path": "/patients/:id",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\_id.vue",
+    "chunkName": "pages/patients/_id",
+    "_name": "_6fb7d642"
+  },
+  {
+    "name": "users-id",
+    "path": "/users/:id",
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\users\\\\_id.vue",
+    "chunkName": "pages/users/_id",
+    "_name": "_5b964d4f"
+  }
+]

@@ -1,0 +1,779 @@
+{
+  "cabinetData": [
+    {
+      "id": 1,
+      "cabinetName": "Невролог",
+      "phoneNumber": 99312000000,
+      "cabinetNumber": 401,
+      "floor": 4,
+      "status": "Активный"
+    },
+    {
+      "id": 2,
+      "cabinetName": "Нейрохирург",
+      "phoneNumber": 99312000001,
+      "cabinetNumber": 402,
+      "floor": 2,
+      "status": "Активный"
+    },
+    {
+      "id": 3,
+      "cabinetName": "Терапевт",
+      "phoneNumber": 99312000002,
+      "cabinetNumber": 403,
+      "floor": 8,
+      "status": "Активный"
+    },
+    {
+      "id": 4,
+      "cabinetName": "Травматолог",
+      "phoneNumber": 99312000003,
+      "cabinetNumber": 404,
+      "floor": 3,
+      "status": "Активный"
+    },
+    {
+      "id": 5,
+      "cabinetName": "Невролог",
+      "phoneNumber": 99312000000,
+      "cabinetNumber": 401,
+      "floor": 4,
+      "status": "Активный"
+    },
+    {
+      "id": 6,
+      "cabinetName": "Нейрохирург",
+      "phoneNumber": 99312000001,
+      "cabinetNumber": 402,
+      "floor": 7,
+      "status": "Активный"
+    },
+    {
+      "id": 7,
+      "cabinetName": "Терапевт",
+      "phoneNumber": 99312000002,
+      "cabinetNumber": 403,
+      "floor": 1,
+      "status": "Активный"
+    }
+  ],
+  "employeeData": [
+    {
+      "id": 1,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000001,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Myrat Myradow"
+    },
+    {
+      "id": 2,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000002,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Myrat Myradow"
+    },
+    {
+      "id": 3,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000003,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Myrat Myradow"
+    },
+    {
+      "id": 4,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000004,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Myrat Myradow"
+    },
+    {
+      "id": 5,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000005,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Myrat Myradow"
+    },
+    {
+      "id": 6,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000006,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Myrat Myradow"
+    },
+    {
+      "id": 7,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000007,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Myrat Myradow"
+    },
+    {
+      "id": 8,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000008,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Myrat Myradow"
+    },
+    {
+      "id": 9,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000009,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Myrat Myradow"
+    },
+    {
+      "id": 10,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000010,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Myrat Myradow"
+    },
+    {
+      "id": 11,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000011,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Myrat Myradow"
+    },
+    {
+      "id": 12,
+      "tolerance": "Доктор",
+      "jobTitle": "Хирург",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "phoneNumber": 99312000012,
+      "cabinetName": "Нейрохирург",
+      "employeeName": "Aman Amanow"
+    }
+  ],
+  "formsData": [
+    {
+      "id": 1,
+      "forms": "Aýaklaryň wenalarynyň dupleks skan barlagynyň beýany",
+      "cabinetName": "Нейрохирург"
+    },
+    {
+      "id": 2,
+      "forms": "Elleriň wenalarynyň dupleks skan barlagynyň beýany",
+      "cabinetName": "Нейрохирург"
+    },
+    {
+      "id": 3,
+      "forms": "Aýaklaryň wenalarynyň dupleks skan barlagynyň beýany",
+      "cabinetName": "Нейрохирург"
+    },
+    {
+      "id": 4,
+      "forms": "Elleriň arteriýalarynyň dupleks skan barlagynyň beýany",
+      "cabinetName": "Нейрохирург"
+    },
+    {
+      "id": 5,
+      "forms": "Kelle beýni arteriýalarynyň transkranial dupleks skan barlagynyň beýany",
+      "cabinetName": "Нейрохирург"
+    },
+    {
+      "id": 6,
+      "forms": "Galkan şekilli mäziň ultrases barlagynyň beýany",
+      "cabinetName": "Нейрохирург"
+    },
+    {
+      "id": 7,
+      "forms": "Aýal jyns agzalarynyň ultrases barlagynyň beýany",
+      "cabinetName": "Нейрохирург"
+    },
+    {
+      "id": 8,
+      "forms": "Ultrases barlagynyň beýany",
+      "cabinetName": "Нейрохирург"
+    },
+    {
+      "id": 9,
+      "forms": "Içki agzalaryň ultrases barlagynyň beýany",
+      "cabinetName": "Нейрохирург"
+    },
+    {
+      "id": 10,
+      "forms": "Şöhle bilen anyklaýyş barlagynyň beýany",
+      "cabinetName": "Нейрохирург"
+    },
+    {
+      "id": 11,
+      "forms": "Magnit-rezonans tomografiýa barlagynyň beýany",
+      "cabinetName": "Нейрохирург"
+    }
+  ],
+  "examinationData": [
+    {
+      "id": 1,
+      "examinationName": "Приём врача-терапевта",
+      "withoutInsurance": "Summa",
+      "withInsurance": "Summa",
+      "foreigner": "Summa",
+      "diplomat": "Summa",
+      "cashNumber": 200
+    },
+    {
+      "id": 2,
+      "examinationName": "Приём офтальмолога",
+      "withoutInsurance": "Summa",
+      "withInsurance": "Summa",
+      "foreigner": "Summa",
+      "diplomat": "Summa",
+      "cashNumber": 200
+    },
+    {
+      "id": 3,
+      "examinationName": "Приём кардиолога",
+      "withoutInsurance": "Summa",
+      "withInsurance": "Summa",
+      "foreigner": "Summa",
+      "diplomat": "Summa",
+      "cashNumber": 200
+    },
+    {
+      "id": 4,
+      "examinationName": "Приём кардиолога",
+      "withoutInsurance": "Summa",
+      "withInsurance": "Summa",
+      "foreigner": "Summa",
+      "diplomat": "Summa",
+      "cashNumber": 200
+    },
+    {
+      "id": 5,
+      "examinationName": "УЗИ сердца и сосудов",
+      "withoutInsurance": "Summa",
+      "withInsurance": "Summa",
+      "foreigner": "Summa",
+      "diplomat": "Summa",
+      "cashNumber": 200
+    },
+    {
+      "id": 6,
+      "examinationName": "УЗИ сердца и сосудов",
+      "withoutInsurance": "Summa",
+      "withInsurance": "Summa",
+      "foreigner": "Summa",
+      "diplomat": "Summa",
+      "cashNumber": 200
+    },
+    {
+      "id": 7,
+      "examinationName": "ЭКГ",
+      "withoutInsurance": "Summa",
+      "withInsurance": "Summa",
+      "foreigner": "Summa",
+      "diplomat": "Summa",
+      "cashNumber": 200
+    },
+    {
+      "id": 8,
+      "examinationName": "ЭКГ с нагрузочными тестами",
+      "withoutInsurance": "Summa",
+      "withInsurance": "Summa",
+      "foreigner": "Summa",
+      "diplomat": "Summa",
+      "cashNumber": 200
+    },
+    {
+      "id": 9,
+      "examinationName": "Суточное мониторирование ЭКГ и артериального ...",
+      "withoutInsurance": "Summa",
+      "withInsurance": "Summa",
+      "foreigner": "Summa",
+      "diplomat": "Summa",
+      "cashNumber": 200
+    },
+    {
+      "id": 10,
+      "examinationName": "Приём кардиолога",
+      "withoutInsurance": "Summa",
+      "withInsurance": "Summa",
+      "foreigner": "Summa",
+      "diplomat": "Summa",
+      "cashNumber": 200
+    },
+    {
+      "id": 11,
+      "examinationName": "магнитно-резонансная томография (МРТ)",
+      "withoutInsurance": "Summa",
+      "withInsurance": "Summa",
+      "foreigner": "Summa",
+      "diplomat": "Summa",
+      "cashNumber": 200
+    }
+  ],
+  "patientData": [
+    {
+      "id": 1,
+      "medicalCardNumber": "МК000000",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "gender": "male",
+      "birthday": "20.10.2001",
+      "passportNumber": "I-AS 000007",
+      "citizenStatus": "гражданин",
+      "phoneNumber": "+99363636363",
+      "secondPhoneNumber": "+99365656565",
+      "policlinic": "Поликлиника 1",
+      "group": "Группа 1",
+      "region": "Ahal",
+      "city": "Ashgabat",
+      "area": "Parahat",
+      "street": "Magtymguly",
+      "house": "1",
+      "apartment": "10",
+      "patientStatus": "false",
+      "unknown": "true",
+      "isActive": "true"
+    },
+    {
+      "id": 2,
+      "medicalCardNumber": "МК000000",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "gender": "male",
+      "birthday": "20.10.2001",
+      "passportNumber": "I-AS 000007",
+      "citizenStatus": "гражданин",
+      "phoneNumber": "+99363636363",
+      "secondPhoneNumber": "+99365656565",
+      "policlinic": "Поликлиника 1",
+      "group": "Группа 1",
+      "region": "Ahal",
+      "city": "Ashgabat",
+      "area": "Parahat",
+      "street": "Magtymguly",
+      "house": "1",
+      "apartment": "10",
+      "patientStatus": "true",
+      "unknown": "true",
+      "isActive": "true"
+    },
+    {
+      "id": 3,
+      "medicalCardNumber": "МК000000",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "gender": "male",
+      "birthday": "20.10.2001",
+      "passportNumber": "I-AS 000007",
+      "citizenStatus": "гражданин",
+      "phoneNumber": "+99363636363",
+      "secondPhoneNumber": "+99365656565",
+      "policlinic": "Поликлиника 1",
+      "group": "Группа 1",
+      "region": "Ahal",
+      "city": "Ashgabat",
+      "area": "Parahat",
+      "street": "Magtymguly",
+      "house": "1",
+      "apartment": "10",
+      "patientStatus": "true",
+      "unknown": "true",
+      "isActive": "true"
+    },
+    {
+      "id": 4,
+      "medicalCardNumber": "МК000000",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "gender": "male",
+      "birthday": "20.10.2001",
+      "passportNumber": "I-AS 000007",
+      "citizenStatus": "гражданин",
+      "phoneNumber": "+99363636363",
+      "secondPhoneNumber": "+99365656565",
+      "policlinic": "Поликлиника 1",
+      "group": "Группа 1",
+      "region": "Ahal",
+      "city": "Ashgabat",
+      "area": "Parahat",
+      "street": "Magtymguly",
+      "house": "1",
+      "apartment": "10",
+      "patientStatus": "true",
+      "unknown": "true",
+      "isActive": "true"
+    },
+    {
+      "id": 5,
+      "medicalCardNumber": "МК000000",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "gender": "male",
+      "birthday": "20.10.2001",
+      "passportNumber": "I-AS 000007",
+      "citizenStatus": "гражданин",
+      "phoneNumber": "+99363636363",
+      "secondPhoneNumber": "+99365656565",
+      "policlinic": "Поликлиника 1",
+      "group": "Группа 1",
+      "region": "Ahal",
+      "city": "Ashgabat",
+      "area": "Parahat",
+      "street": "Magtymguly",
+      "house": "1",
+      "apartment": "10",
+      "patientStatus": "true",
+      "unknown": "true",
+      "isActive": "true"
+    },
+    {
+      "id": 6,
+      "medicalCardNumber": "МК000000",
+      "firstName": "Myrat",
+      "lastName": "Myradow",
+      "surname": "Myradowic",
+      "gender": "male",
+      "birthday": "20.10.2001",
+      "passportNumber": "I-AS 000007",
+      "citizenStatus": "гражданин",
+      "phoneNumber": "+99363636363",
+      "secondPhoneNumber": "+99365656565",
+      "policlinic": "Поликлиника 1",
+      "group": "Группа 1",
+      "region": "Ahal",
+      "city": "Ashgabat",
+      "area": "Parahat",
+      "street": "Magtymguly",
+      "house": "1",
+      "apartment": "10",
+      "patientStatus": "true",
+      "unknown": "true",
+      "isActive": "true"
+    }
+  ],
+  "bulletin": [
+    {
+      "id": "1",
+      "date": "20.01.2023",
+      "requirement": "Галочка “Прочитал”",
+      "status": "Активный",
+      "image": "img.png",
+      "title": "Saglygy goraýyş we derman senagaty ministrliginiň bildirişi",
+      "description": "Şu günler howanyň düzüminde tozan bölejikleriniň möçberiniň kadadan 21 göterim artmagy bilen baglanyşykly häzirki wagtda howa şertleriniň adam bedenine ýetirýän oňaýsyz täsirleriniň öňüni almak üçin, köçelerde we beýleki jemgyýetçilik ýerlerinde bolýan wagtyňyz agyz-burun örtüklerini ulanmagy maslahat berýäris. Saglygyňyzy goraň — agyz-burun örtüklerini ulanyň!",
+      "tkmTitle": "",
+      "rusTitle": ""
+    },
+    {
+      "id": "2",
+      "date": "20.01.2023",
+      "requirement": "Галочка “Прочитал”",
+      "status": "Активный",
+      "image": "img.png",
+      "title": "Türkmenistan Özbegistandan kir ýuwujy maşynlary import eden esasy döwletleriň biri boldy",
+      "description": "Türkmenistan 2022-nji ýylda Özbegistandan kir ýuwujy maşynlary satyn almakda öňdäki onluga girdi. Bu barada Özbegistanyň Prezidentiniň ýanyndaky Döwlet statistika agentligi habar berýär. Çeşmede bellenilişi ýaly Özbegistan...",
+      "tkmTitle": "",
+      "rusTitle": ""
+    },
+    {
+      "id": "3",
+      "date": "20.01.2023",
+      "requirement": "Галочка “Прочитал”",
+      "status": "Активный",
+      "image": "img.png",
+      "title": "«Gazpromyň» başlygy Miller: rus gazynyň Aziýa bazarynda uly geljegi bar",
+      "description": "ussiýa Federasiýasynyň «Gazprom» döwlet edarasynyň başlygy Alekseý Miller kompaniýanyň rus gazy üçin Aziýada uly geljegi bolan bazary görýändigini belledi, onuň sözlerine görä, häzir Aziýa iň çalt ösýän bazar bolup durýar. Bu barada ol «Rossiýa 1» teleýaýlymyna beren interwýusynda gürrüň berdi diýip, «Gazeta.ru» ýazýar.",
+      "tkmTitle": "",
+      "rusTitle": ""
+    },
+    {
+      "id": "4",
+      "date": "20.01.2023",
+      "requirement": "Галочка “Прочитал”",
+      "status": "Активный",
+      "image": "img.png",
+      "title": "BMG mätäçlere 250 million dollar haýyr-sahawat kömegini berýär",
+      "description": "Birleşen Milletler Guramasy bütin dünýäde mätäçlik çekýänler üçin 250 million dollary haýyr-sahawat kömegi hökmünde bölüp bermekçi diýip, «RIA Nowosti» habarlar gullugyna salgylanýan «MIR 24» ýazýar.",
+      "tkmTitle": "",
+      "rusTitle": ""
+    },
+    {
+      "id": "5",
+      "date": "20.01.2023",
+      "status": "Активный",
+      "image": "img.png",
+      "requirement": "Галочка “Прочитал”",
+      "title": "Geçen hepde türkmen biržasynda 14 geleşik hasaba alyndy",
+      "description": "Geçen hepdede Türkmenistanyň Döwlet haryt-çig mal biržasynyň söwdalarynda geleşikleriň 14-si hasaba alyndy.",
+      "tkmTitle": "",
+      "rusTitle": ""
+    },
+    {
+      "id": "6",
+      "date": "20.01.2023",
+      "status": "Активный",
+      "image": "img.png",
+      "requirement": "Галочка “Прочитал”",
+      "title": "Saglygy goraýyş we derman senagaty ministrliginiň bildirişi",
+      "description": "Şu günler howanyň düzüminde tozan bölejikleriniň möçberiniň kadadan 21 göterim artmagy bilen baglanyşykly häzirki wagtda howa şertleriniň adam bedenine ýetirýän oňaýsyz täsirleriniň öňüni almak üçin, köçelerde we beýleki jemgyýetçilik ýerlerinde bolýan wagtyňyz agyz-burun örtüklerini ulanmagy maslahat berýäris. Saglygyňyzy goraň — agyz-burun örtüklerini ulanyň!",
+      "tkmTitle": "",
+      "rusTitle": ""
+    },
+    {
+      "id": "7",
+      "date": "20.01.2023",
+      "status": "Активный",
+      "image": "img.png",
+      "requirement": "Галочка “Прочитал”",
+      "title": "Şu hepde Türkmenistanda güýçli ýeliň bolmagyna garaşylýar",
+      "description": "Habar berilmegine görä, ýeliň Mary welaýatynda 15-20 m/s çenli, Balkan welaýatynda 14-19 m/s çenli, Lebapda we Ahal welaýatynyň günorta-gündogarynda 12-17 m/s çenli güýçlenmegine garaşylýar.",
+      "tkmTitle": "",
+      "rusTitle": ""
+    },
+    {
+      "id": "8",
+      "date": "20.01.2023",
+      "status": "Активный",
+      "image": "img.png",
+      "requirement": "Галочка “Прочитал”",
+      "title": "Saglygy goraýyş we derman senagaty ministrliginiň bildirişi",
+      "description": "Şu günler howanyň düzüminde tozan bölejikleriniň möçberiniň kadadan 21 göterim artmagy bilen baglanyşykly häzirki wagtda howa şertleriniň adam bedenine ýetirýän oňaýsyz täsirleriniň öňüni almak üçin, köçelerde we beýleki jemgyýetçilik ýerlerinde bolýan wagtyňyz agyz-burun örtüklerini ulanmagy maslahat berýäris. Saglygyňyzy goraň — agyz-burun örtüklerini ulanyň!",
+      "tkmTitle": "",
+      "rusTitle": ""
+    },
+    {
+      "id": "9",
+      "date": "20.01.2023",
+      "status": "Активный",
+      "image": "img.png",
+      "requirement": "Галочка “Прочитал”",
+      "title": "Hindistanda geçigaplaňlaryň baş sany dikeldilýär",
+      "description": "Hindistana Günorta Afrikadan ýabany tebigata goýbermek üçin geçigaplaňlaryň 12 sanysyny getirdiler diýip, «Habar 24» ýazýar.",
+      "tkmTitle": "",
+      "rusTitle": ""
+    },
+    {
+      "id": "10",
+      "date": "20.01.2023",
+      "status": "Активный",
+      "image": "img.png",
+      "requirement": "Галочка “Прочитал”",
+      "title": "Hytaýyň Merkezi Aziýa ýurtlary bilen söwda dolanyşygy 70 milliard dollardan geçdi",
+      "description": "Şeýle hem habarda Hytaýyň Merkezi Aziýa ýurtlarynyň ykdysadyýetine goýýan maýa goýumlarynyň mukdarynyň 970 million amerikan dollaryna deňdigi aýdylýar.",
+      "tkmTitle": "",
+      "rusTitle": ""
+    },
+    {
+      "id": "11",
+      "date": "20.01.2023",
+      "status": "Активный",
+      "image": "img.png",
+      "requirement": "Галочка “Прочитал”",
+      "title": "Saglygy goraýyş we derman senagaty ministrliginiň bildirişi",
+      "description": "Şu günler howanyň düzüminde tozan bölejikleriniň möçberiniň kadadan 21 göterim artmagy bilen baglanyşykly häzirki wagtda howa şertleriniň adam bedenine ýetirýän oňaýsyz täsirleriniň öňüni almak üçin, köçelerde we beýleki jemgyýetçilik ýerlerinde bolýan wagtyňyz agyz-burun örtüklerini ulanmagy maslahat berýäris. Saglygyňyzy goraň — agyz-burun örtüklerini ulanyň!",
+      "tkmTitle": "",
+      "rusTitle": ""
+    },
+    {
+      "id": 0.9744668091102582,
+      "tkmTitle": "fdgfdgdfgdfg",
+      "rusTitle": "апрапрпрапрапрапр",
+      "tkmText": null,
+      "rusText": null
+    },
+    {
+      "id": 0.27833158022795357,
+      "tkmTitle": "прапрапрапр",
+      "rusTitle": "ррррррррррррррррррррррр"
+    }
+  ],
+  "entryData": [
+    {
+      "id": 1,
+      "entryNumber": "000001",
+      "medicalCardNumber": "МК000000",
+      "patientName": "Bayram Bayramow",
+      "paymentState": "Оплачено",
+      "result": "Просмотреть",
+      "cabinetName": "Невролог",
+      "doctorName": "Sapar Saparow",
+      "date": "20.01.2023",
+      "time": "14:00",
+      "note": "",
+      "additionalPaymentName": "",
+      "sum": "",
+      "additionalNote": ""
+    },
+    {
+      "id": 2,
+      "entryNumber": "000001",
+      "medicalCardNumber": "МК000000",
+      "patientName": "Bayram Bayramow",
+      "paymentState": "Оплачено",
+      "result": "Просмотреть",
+      "cabinetName": "Невролог",
+      "doctorName": "Sapar Saparow",
+      "date": "20.01.2023",
+      "time": "14:00",
+      "note": "",
+      "additionalPaymentName": "",
+      "sum": "",
+      "additionalNote": ""
+    },
+    {
+      "id": 3,
+      "entryNumber": "000001",
+      "medicalCardNumber": "МК000000",
+      "patientName": "Bayram Bayramow",
+      "paymentState": "Оплачено",
+      "result": "Просмотреть",
+      "cabinetName": "Невролог",
+      "doctorName": "Sapar Saparow",
+      "date": "20.01.2023",
+      "time": "14:00",
+      "note": "",
+      "additionalPaymentName": "",
+      "sum": "",
+      "additionalNote": ""
+    },
+    {
+      "id": 4,
+      "entryNumber": "000001",
+      "medicalCardNumber": "МК000000",
+      "patientName": "Bayram Bayramow",
+      "paymentState": "Оплачено",
+      "result": "Просмотреть",
+      "cabinetName": "Невролог",
+      "doctorName": "Sapar Saparow",
+      "date": "20.01.2023",
+      "time": "14:00",
+      "note": "",
+      "additionalPaymentName": "",
+      "sum": "",
+      "additionalNote": ""
+    },
+    {
+      "id": 5,
+      "entryNumber": "000001",
+      "medicalCardNumber": "МК000000",
+      "patientName": "Bayram Bayramow",
+      "paymentState": "Оплачено",
+      "result": "Просмотреть",
+      "cabinetName": "Невролог",
+      "doctorName": "Sapar Saparow",
+      "date": "20.01.2023",
+      "time": "14:00",
+      "note": "",
+      "additionalPaymentName": "",
+      "sum": "",
+      "additionalNote": ""
+    },
+    {
+      "id": 6,
+      "entryNumber": "000001",
+      "medicalCardNumber": "МК000000",
+      "patientName": "Bayram Bayramow",
+      "paymentState": "Оплачено",
+      "result": "Просмотреть",
+      "cabinetName": "Невролог",
+      "doctorName": "Sapar Saparow",
+      "date": "20.01.2023",
+      "time": "14:00",
+      "note": "",
+      "additionalPaymentName": "",
+      "sum": "",
+      "additionalNote": ""
+    },
+    {
+      "id": 7,
+      "entryNumber": "000001",
+      "medicalCardNumber": "МК000000",
+      "patientName": "Bayram Bayramow",
+      "paymentState": "Оплачено",
+      "result": "Просмотреть",
+      "cabinetName": "Невролог",
+      "doctorName": "Sapar Saparow",
+      "date": "20.01.2023",
+      "time": "14:00",
+      "note": "",
+      "additionalPaymentName": "",
+      "sum": "",
+      "additionalNote": ""
+    }
+  ],
+  "toleranceGroups": [
+    {
+      "id": 1,
+      "accessGroup": "Главный администратор",
+      "employeeCount": "1",
+      "employeeShow": "Просмотреть"
+    },
+    {
+      "id": 2,
+      "accessGroup": "Доктор",
+      "employeeCount": "20",
+      "employeeShow": "Просмотреть"
+    },
+    {
+      "id": 3,
+      "accessGroup": "Бухгалтер",
+      "employeeCount": "1",
+      "employeeShow": "Просмотреть"
+    },
+    {
+      "id": 4,
+      "accessGroup": "Касса",
+      "employeeCount": "1",
+      "employeeShow": "Просмотреть"
+    },
+    {
+      "id": 5,
+      "accessGroup": "Модератор",
+      "employeeCount": "1",
+      "employeeShow": "Просмотреть"
+    }
+  ]
+}
