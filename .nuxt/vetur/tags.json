@@ -1,10 +1,4 @@
 {
-  "BulletinCard": {
-    "description": "Auto imported from components/bulletin/bulletin-card.vue"
-  },
-  "BulletinDataGrid": {
-    "description": "Auto imported from components/bulletin/bulletin-data-grid.vue"
-  },
   "AdminBulletinCard": {
     "description": "Auto imported from components/admin-bulletin/admin-bulletin-card.vue"
   },
@@ -13,6 +7,12 @@
   },
   "AdminBulletinCreate": {
     "description": "Auto imported from components/admin-bulletin/admin-bulletin.create.vue"
+  },
+  "BulletinCard": {
+    "description": "Auto imported from components/bulletin/bulletin-card.vue"
+  },
+  "BulletinDataGrid": {
+    "description": "Auto imported from components/bulletin/bulletin-data-grid.vue"
   },
   "CabinetsCabinetCard": {
     "description": "Auto imported from components/cabinets/cabinet-card.vue"

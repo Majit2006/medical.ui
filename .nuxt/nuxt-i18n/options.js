@@ -19,7 +19,7 @@ export const options = {
   sortRoutes: true,
   strategy: "no_prefix",
   lazy: true,
-  langDir: "E:\\Project\\medical.ui\\lang",
+  langDir: "C:\\Users\\Majit\\Desktop\\Projects\\medical.ui\\lang",
   rootRedirect: null,
   detectBrowserLanguage: {"alwaysRedirect":true,"cookieCrossOrigin":false,"cookieDomain":null,"cookieKey":"locale","cookieSecure":false,"fallbackLocale":"tk-TM","onlyOnNoPrefix":false,"onlyOnRoot":false,"useCookie":true},
   differentDomains: false,

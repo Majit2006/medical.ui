@@ -6,11 +6,11 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
-- `<BulletinCard>` | `<bulletin-card>` (components/bulletin/bulletin-card.vue)
-- `<BulletinDataGrid>` | `<bulletin-data-grid>` (components/bulletin/bulletin-data-grid.vue)
 - `<AdminBulletinCard>` | `<admin-bulletin-card>` (components/admin-bulletin/admin-bulletin-card.vue)
 - `<AdminBulletinDataGrid>` | `<admin-bulletin-data-grid>` (components/admin-bulletin/admin-bulletin-data-grid.vue)
 - `<AdminBulletinCreate>` | `<admin-bulletin-create>` (components/admin-bulletin/admin-bulletin.create.vue)
+- `<BulletinCard>` | `<bulletin-card>` (components/bulletin/bulletin-card.vue)
+- `<BulletinDataGrid>` | `<bulletin-data-grid>` (components/bulletin/bulletin-data-grid.vue)
 - `<CabinetsCabinetCard>` | `<cabinets-cabinet-card>` (components/cabinets/cabinet-card.vue)
 - `<CabinetsCabinetCreate>` | `<cabinets-cabinet-create>` (components/cabinets/cabinet-create.vue)
 - `<CabinetsCabinetDataGrid>` | `<cabinets-cabinet-data-grid>` (components/cabinets/cabinet-data-grid.vue)
