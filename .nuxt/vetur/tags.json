@@ -80,6 +80,9 @@
   "PatientsPatientDataGrid": {
     "description": "Auto imported from components/patients/patient-data-grid.vue"
   },
+  "ToleranceGroupsDataGrid": {
+    "description": "Auto imported from components/tolerance-groups/tolerance-groups-data-grid.vue"
+  },
   "UsersUserCard": {
     "description": "Auto imported from components/users/user-card.vue"
   },
@@ -101,11 +104,11 @@
   "EntriesStatistic": {
     "description": "Auto imported from components/entries/statistic/statistic.vue"
   },
-  "PageGuideBlock": {
-    "description": "Auto imported from components/page/guide/block.vue"
-  },
   "PatientsComplaint": {
     "description": "Auto imported from components/patients/complaint/complaint.vue"
+  },
+  "PageGuideBlock": {
+    "description": "Auto imported from components/page/guide/block.vue"
   },
   "PatientsEntriesPatientEntryCard": {
     "description": "Auto imported from components/patients/entries/patient-entry-card.vue"
