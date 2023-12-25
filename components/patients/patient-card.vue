@@ -12,134 +12,91 @@
       </div>
     </div>
     <div class="component-wrapper">
-      <div class="medical-card-wrapper">
-        <span>Номер мед.карты</span>
-        <input class="medical-card-number input" type="text" name="" id="" />
-      </div>
-      <div class="patient-info">
-        <div class="info-form-wrapper">
-          <div>
-            <span>Ф.И.О пациента</span>
-          </div>
-          <input class="input" type="text" />
-        </div>
-        <input class="input" type="text" />
-        <input class="input" type="text" />
-      </div>
-      <div class="gender-wrapper">
-        <div>
-          <span>Пол</span>
-          <select class="choose-gender input" name="" id="">
-            <option value="">Мужчина</option>
-            <option value="">Женщина</option>
-          </select>
-        </div>
-        <div>
-          <span>Дата рождения</span>
-          <input class="birthday input" type="date" />
-        </div>
-        <div>
-          <span>Паспорт №</span>
-          <input class="passport-number input" type="text" />
-        </div>
-      </div>
-      <div class="insurance-wrapper">
-        <div>
-          <span>Страховой полис №</span>
-          <input class="input" type="text" />
-        </div>
-        <div>
-          <span>Номер телефона 1</span>
-          <input class="input" type="text" />
-        </div>
-        <div>
-          <span>Номер телефона 2</span>
-          <input class="input" type="text" />
-        </div>
-      </div>
-
-      <div class="horizont-line" />
-
-      <div class="polyclinic-list-wrapper">
-        <p>
-          <span>Поликлиника</span>
-        </p>
-        <div class="choose-polyclinic">
-          <select class="input" name="" id="">
-            <option value="">Поликлиника 1</option>
-            <option value="">Поликлиника 2</option>
-            <option value="">Поликлиника 3</option>
-            <option value="">Поликлиника 4</option>
-            <option value="">Поликлиника 5</option>
-          </select>
-          <button class="polyclinic-list-btn">Нет в списке?</button>
-        </div>
-      </div>
-
-      <div class="horizont-line" />
-
-      <div class="group-wrapper">
-        <span>Группа</span>
-        <select class="group-select-box" name="" id="">
-          <option value="">Группа 1</option>
-          <option value="">Группа 2</option>
-          <option value="">Группа 3</option>
-          <option value="">Группа 4</option>
-        </select>
-        <textarea class="input" name="" id="" cols="30" rows="10"></textarea>
-      </div>
-
-      <div class="horizont-line" />
-
-      <div class="region-wrapper">
-        <div>
-          <span>Регион</span>
-          <input class="region input" type="text" />
-        </div>
-        <div>
-          <span>Город</span>
-          <input class="city input" type="text" />
-        </div>
-        <div>
-          <span>Район</span>
-          <input class="area input" type="text" />
-        </div>
-      </div>
-      <div class="address-wrapper">
-        <div>
-          <span>Улица</span>
-          <input class="input" type="text" />
-        </div>
-        <div>
-          <span>Дом</span>
-          <input class="input" type="text" />
-        </div>
-        <div>
-          <span>Квартира/Офис</span>
-          <input class="input" type="text" />
-        </div>
-      </div>
-      <div class="note-wrapper">
-        <textarea class="input" name="" id="" cols="30" rows="10"></textarea>
-      </div>
-
-      <div class="horizont-line" />
-      <div class="active-checkbox-wrapper">
-        <div>
-          <input type="checkbox" />
-          <span>Не активный</span>
-        </div>
-        <div>
-          <input type="checkbox" />
-          <span>VIP</span>
-        </div>
-      </div>
+      <DxForm label-location="top" ref="form">
+        <DxGroupItem :col-count="2">
+          <DxGroupItem :col-count="1">
+            <DxSimpleItem data-field="lastName">
+              <DxLabel :text="$t('patientPage.lastName')" :show-colon="false" />
+            </DxSimpleItem>
+            <DxSimpleItem data-field="name">
+              <DxLabel
+                :text="$t('patientPage.firstName')"
+                :show-colon="false"
+              />
+            </DxSimpleItem>
+            <DxSimpleItem data-field="surname">
+              <DxLabel :text="$t('patientPage.surname')" :show-colon="false" />
+            </DxSimpleItem>
+          </DxGroupItem>
+        </DxGroupItem>
+        <DxEmptyItem />
+        <DxGroupItem>
+        <DxGroupItem :col-count="3">
+          <DxGroupItem >
+            <DxSimpleItem data-field="sex" editor-type="dxSelectBox">
+              <DxLabel :text="$t('patientPage.gender')" :show-colon="false" />
+            </DxSimpleItem>
+          </DxGroupItem>
+          <DxSimpleItem
+            data-field="dateOfBirth"
+            data-type="date"
+            editor-type="dxDateBox"
+          >
+            <DxLabel :text="$t('patientPage.birthday')" :show-colon="false" />
+          </DxSimpleItem>
+          <DxSimpleItem
+            data-field="dateOfBirth"
+            data-type="date"
+            editor-type="dxDateBox"
+          >
+            <DxLabel :text="$t('patientPage.birthday')" :show-colon="false" />
+          </DxSimpleItem>
+        </DxGroupItem>
+        <DxEmptyItem/>
+        <DxGroupItem :col-count="3">
+          <DxSimpleItem data-field="">
+            <DxLabel
+              :text="$t('patientPage.citizenStatus')"
+              :show-colon="false"
+            />
+          </DxSimpleItem>
+          <DxSimpleItem data-field="phone1">
+            <DxLabel
+              :text="$t('patientPage.phoneNumber')"
+              :show-colon="false"
+            />
+          </DxSimpleItem>
+          <DxSimpleItem data-field="phone2">
+            <DxLabel
+              :text="$t('patientPage.secondPhoneNumber')"
+              :show-colon="false"
+            />
+          </DxSimpleItem>
+        </DxGroupItem>
+        </DxGroupItem>
+      </DxForm>
     </div>
   </div>
 </template>
 <script lang="ts">
 import Vue from "vue";
+import {
+  DxForm,
+  DxSimpleItem,
+  DxGroupItem,
+  DxEmptyItem,
+  DxLabel,
+  DxItem,
+} from "devextreme-vue/form";
 export default Vue.extend({
+  components: {
+    DxForm,
+    DxSimpleItem,
+    DxGroupItem,
+    DxEmptyItem,
+    DxLabel,
+    DxItem,
+  },
   methods: {
     backHandler() {
       this.$router.go(-1);
@@ -158,6 +115,7 @@ export default Vue.extend({
   row-gap: 40px;
 }
 .padtient-id {
+  color: red;
   padding: 12px 150px;
   border: none;
   border-radius: 10px;

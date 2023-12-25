@@ -2,288 +2,247 @@
   {
     "name": "admin-bulletin",
     "path": "/admin-bulletin",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\index.vue",
-    "chunkName": "pages/admin-bulletin/index",
-    "_name": "_0c18cd7c"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\index.vue",
+    "chunkName": "pages/admin-bulletin/index"
   },
   {
     "name": "bulletin",
     "path": "/bulletin",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\bulletin\\\\index.vue",
-    "chunkName": "pages/bulletin/index",
-    "_name": "_83e0e300"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\bulletin\\\\index.vue",
+    "chunkName": "pages/bulletin/index"
   },
   {
     "name": "cabinet",
     "path": "/cabinet",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\cabinet\\\\index.vue",
-    "chunkName": "pages/cabinet/index",
-    "_name": "_dd845356"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\cabinet\\\\index.vue",
+    "chunkName": "pages/cabinet/index"
   },
   {
     "name": "calendar",
     "path": "/calendar",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\calendar\\\\index.vue",
-    "chunkName": "pages/calendar/index",
-    "_name": "_8a408eee"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\calendar\\\\index.vue",
+    "chunkName": "pages/calendar/index"
   },
   {
     "name": "doctor-entries",
     "path": "/doctor-entries",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\doctor-entries\\\\index.vue",
-    "chunkName": "pages/doctor-entries/index",
-    "_name": "_5fb8dcb6"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\doctor-entries\\\\index.vue",
+    "chunkName": "pages/doctor-entries/index"
   },
   {
     "name": "entries",
     "path": "/entries",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\entries\\\\index.vue",
-    "chunkName": "pages/entries/index",
-    "_name": "_7218bdc6"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\entries\\\\index.vue",
+    "chunkName": "pages/entries/index"
   },
   {
     "name": "forms",
     "path": "/forms",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\forms\\\\index.vue",
-    "chunkName": "pages/forms/index",
-    "_name": "_30757644"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\forms\\\\index.vue",
+    "chunkName": "pages/forms/index"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_02d6b55e"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
   },
   {
     "name": "observations",
     "path": "/observations",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\observations\\\\index.vue",
-    "chunkName": "pages/observations/index",
-    "_name": "_488ca040"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\observations\\\\index.vue",
+    "chunkName": "pages/observations/index"
   },
   {
     "name": "patients",
     "path": "/patients",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\patients\\\\index.vue",
-    "chunkName": "pages/patients/index",
-    "_name": "_c509488e"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\index.vue",
+    "chunkName": "pages/patients/index"
   },
   {
     "name": "review",
     "path": "/review",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\review\\\\index.vue",
-    "chunkName": "pages/review/index",
-    "_name": "_1e0a4b6f"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\review\\\\index.vue",
+    "chunkName": "pages/review/index"
   },
   {
     "name": "statistics",
     "path": "/statistics",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\statistics\\\\index.vue",
-    "chunkName": "pages/statistics/index",
-    "_name": "_69934378"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\statistics\\\\index.vue",
+    "chunkName": "pages/statistics/index"
   },
   {
     "name": "toleranceGroups",
     "path": "/toleranceGroups",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\toleranceGroups\\\\index.vue",
-    "chunkName": "pages/toleranceGroups/index",
-    "_name": "_3f00f1cc"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\toleranceGroups\\\\index.vue",
+    "chunkName": "pages/toleranceGroups/index"
   },
   {
     "name": "users",
     "path": "/users",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\users\\\\index.vue",
-    "chunkName": "pages/users/index",
-    "_name": "_91ea5d36"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\users\\\\index.vue",
+    "chunkName": "pages/users/index"
   },
   {
     "name": "admin-bulletin-create",
     "path": "/admin-bulletin/create",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\create.vue",
-    "chunkName": "pages/admin-bulletin/create",
-    "_name": "_6c33d9bc"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\create.vue",
+    "chunkName": "pages/admin-bulletin/create"
   },
   {
     "name": "admin-bulletin-edit",
     "path": "/admin-bulletin/edit",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\edit\\\\index.vue",
-    "chunkName": "pages/admin-bulletin/edit/index",
-    "_name": "_520a4378"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\edit\\\\index.vue",
+    "chunkName": "pages/admin-bulletin/edit/index"
   },
   {
     "name": "admin-bulletin-statistic",
     "path": "/admin-bulletin/statistic",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\statistic\\\\index.vue",
-    "chunkName": "pages/admin-bulletin/statistic/index",
-    "_name": "_23d6247c"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\statistic\\\\index.vue",
+    "chunkName": "pages/admin-bulletin/statistic/index"
   },
   {
     "name": "cabinet-create",
     "path": "/cabinet/create",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\cabinet\\\\create.vue",
-    "chunkName": "pages/cabinet/create",
-    "_name": "_839d81ee"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\cabinet\\\\create.vue",
+    "chunkName": "pages/cabinet/create"
   },
   {
     "name": "doctor-entries-create",
     "path": "/doctor-entries/create",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\doctor-entries\\\\create.vue",
-    "chunkName": "pages/doctor-entries/create",
-    "_name": "_5c02edb9"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\doctor-entries\\\\create.vue",
+    "chunkName": "pages/doctor-entries/create"
   },
   {
     "name": "doctor-entries-form",
     "path": "/doctor-entries/form",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\doctor-entries\\\\form\\\\index.vue",
-    "chunkName": "pages/doctor-entries/form/index",
-    "_name": "_428beea1"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\doctor-entries\\\\form\\\\index.vue",
+    "chunkName": "pages/doctor-entries/form/index"
   },
   {
     "name": "entries-create",
     "path": "/entries/create",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\entries\\\\create.vue",
-    "chunkName": "pages/entries/create",
-    "_name": "_3f34cd41"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\entries\\\\create.vue",
+    "chunkName": "pages/entries/create"
   },
   {
     "name": "entries-statistic",
     "path": "/entries/statistic",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\entries\\\\statistic\\\\index.vue",
-    "chunkName": "pages/entries/statistic/index",
-    "_name": "_7192ff07"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\entries\\\\statistic\\\\index.vue",
+    "chunkName": "pages/entries/statistic/index"
   },
   {
     "name": "forms-create",
     "path": "/forms/create",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\forms\\\\create.vue",
-    "chunkName": "pages/forms/create",
-    "_name": "_3897a1a0"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\forms\\\\create.vue",
+    "chunkName": "pages/forms/create"
   },
   {
     "name": "observations-create",
     "path": "/observations/create",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\observations\\\\create.vue",
-    "chunkName": "pages/observations/create",
-    "_name": "_799ed244"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\observations\\\\create.vue",
+    "chunkName": "pages/observations/create"
   },
   {
     "name": "patients-complaint",
     "path": "/patients/complaint",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\patients\\\\complaint\\\\index.vue",
-    "chunkName": "pages/patients/complaint/index",
-    "_name": "_12ed30b0"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\complaint\\\\index.vue",
+    "chunkName": "pages/patients/complaint/index"
   },
   {
     "name": "patients-create",
     "path": "/patients/create",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\patients\\\\create.vue",
-    "chunkName": "pages/patients/create",
-    "_name": "_39a46625"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\create.vue",
+    "chunkName": "pages/patients/create"
   },
   {
     "name": "patients-entries",
     "path": "/patients/entries",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\index.vue",
-    "chunkName": "pages/patients/entries/index",
-    "_name": "_321dd7eb"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\index.vue",
+    "chunkName": "pages/patients/entries/index"
   },
   {
     "name": "users-create",
     "path": "/users/create",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\users\\\\create.vue",
-    "chunkName": "pages/users/create",
-    "_name": "_5203a5f9"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\users\\\\create.vue",
+    "chunkName": "pages/users/create"
   },
   {
     "name": "patients-entries-create",
     "path": "/patients/entries/create",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\create.vue",
-    "chunkName": "pages/patients/entries/create",
-    "_name": "_39517033"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\create.vue",
+    "chunkName": "pages/patients/entries/create"
   },
   {
     "name": "patients-entries-result",
     "path": "/patients/entries/result",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\result\\\\index.vue",
-    "chunkName": "pages/patients/entries/result/index",
-    "_name": "_34e2c1a4"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\result\\\\index.vue",
+    "chunkName": "pages/patients/entries/result/index"
   },
   {
     "name": "patients-entries-result-form",
     "path": "/patients/entries/result/form",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\result\\\\form.vue",
-    "chunkName": "pages/patients/entries/result/form",
-    "_name": "_35a49818"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\result\\\\form.vue",
+    "chunkName": "pages/patients/entries/result/form"
   },
   {
     "name": "patients-entries-id",
     "path": "/patients/entries/:id",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\_id.vue",
-    "chunkName": "pages/patients/entries/_id",
-    "_name": "_0886d913"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\entries\\\\_id.vue",
+    "chunkName": "pages/patients/entries/_id"
   },
   {
     "name": "admin-bulletin-id",
     "path": "/admin-bulletin/:id?",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\_id.vue",
-    "chunkName": "pages/admin-bulletin/_id",
-    "_name": "_0cbb042a"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\admin-bulletin\\\\_id.vue",
+    "chunkName": "pages/admin-bulletin/_id"
   },
   {
     "name": "bulletin-id",
     "path": "/bulletin/:id",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\bulletin\\\\_id.vue",
-    "chunkName": "pages/bulletin/_id",
-    "_name": "_1d2f30e8"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\bulletin\\\\_id.vue",
+    "chunkName": "pages/bulletin/_id"
   },
   {
     "name": "cabinet-id",
     "path": "/cabinet/:id",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\cabinet\\\\_id.vue",
-    "chunkName": "pages/cabinet/_id",
-    "_name": "_b4f12c06"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\cabinet\\\\_id.vue",
+    "chunkName": "pages/cabinet/_id"
   },
   {
     "name": "doctor-entries-id",
     "path": "/doctor-entries/:id?",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\doctor-entries\\\\_id.vue",
-    "chunkName": "pages/doctor-entries/_id",
-    "_name": "_2243b94d"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\doctor-entries\\\\_id.vue",
+    "chunkName": "pages/doctor-entries/_id"
   },
   {
     "name": "entries-id",
     "path": "/entries/:id",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\entries\\\\_id.vue",
-    "chunkName": "pages/entries/_id",
-    "_name": "_224146c5"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\entries\\\\_id.vue",
+    "chunkName": "pages/entries/_id"
   },
   {
     "name": "forms-id",
     "path": "/forms/:id",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\forms\\\\_id.vue",
-    "chunkName": "pages/forms/_id",
-    "_name": "_ea0a3274"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\forms\\\\_id.vue",
+    "chunkName": "pages/forms/_id"
   },
   {
     "name": "observations-id",
     "path": "/observations/:id",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\observations\\\\_id.vue",
-    "chunkName": "pages/observations/_id",
-    "_name": "_609bab70"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\observations\\\\_id.vue",
+    "chunkName": "pages/observations/_id"
   },
   {
     "name": "patients-id",
     "path": "/patients/:id",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\patients\\\\_id.vue",
-    "chunkName": "pages/patients/_id",
-    "_name": "_0d6ef861"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\patients\\\\_id.vue",
+    "chunkName": "pages/patients/_id"
   },
   {
     "name": "users-id",
     "path": "/users/:id",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\users\\\\_id.vue",
-    "chunkName": "pages/users/_id",
-    "_name": "_0577e90d"
+    "component": "E:\\\\Project\\\\medical.ui\\\\pages\\\\users\\\\_id.vue",
+    "chunkName": "pages/users/_id"
   }
 ]

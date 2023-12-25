@@ -19,7 +19,7 @@
         :caption="$t('toleranceGroup.accessGroupName')"
       />
       <DxColumn
-        data-field="phone"
+        data-field="userCound"
         :caption="$t('toleranceGroup.employeeCount')"
       />
       <DxColumn
@@ -27,7 +27,7 @@
         caption="Номер кабинета"
         data-type="cabinetNumber"
       />
-      <DxColumn :width="100" :buttons="editButtons" type="buttons" />
+      <!-- <DxColumn :width="100" :buttons="editButtons" type="buttons" /> -->
     </DxDataGrid>
   </div>
 </template>
@@ -48,6 +48,16 @@ export default Vue.extend({
     DxColumn,
     DxSearchPanel,
     DxFilterRow,
+  },
+  data(){
+     return{
+      dataSource: new DataSource({
+        store: this.$dxStore({
+          key: "id",
+          loadUrl: this.$dataApi.roles,
+        }),
+      }),
+     }
   },
   methods: {
     showToleranceGroup(e: any) {
