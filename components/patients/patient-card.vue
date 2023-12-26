@@ -13,6 +13,7 @@
     </div>
     <div class="component-wrapper">
       <DxForm label-location="top" ref="form">
+        <!------------------- LastName, firstName, Surname ---------->
         <DxGroupItem :col-count="2">
           <DxGroupItem :col-count="1">
             <DxSimpleItem data-field="lastName">
@@ -30,50 +31,83 @@
           </DxGroupItem>
         </DxGroupItem>
         <DxEmptyItem />
+        <!------------------- Gender, Birthday, PassportNumber -------->
         <DxGroupItem>
-        <DxGroupItem :col-count="3">
-          <DxGroupItem >
-            <DxSimpleItem data-field="sex" editor-type="dxSelectBox">
-              <DxLabel :text="$t('patientPage.gender')" :show-colon="false" />
+          <DxGroupItem :col-count="3">
+            <DxGroupItem>
+              <DxSimpleItem data-field="sex" editor-type="dxSelectBox">
+                <DxLabel :text="$t('patientPage.gender')" :show-colon="false" />
+              </DxSimpleItem>
+            </DxGroupItem>
+            <DxSimpleItem
+              data-field="dateOfBirth"
+              data-type="date"
+              editor-type="dxDateBox"
+            >
+              <DxLabel :text="$t('patientPage.birthday')" :show-colon="false" />
+            </DxSimpleItem>
+            <DxSimpleItem data-field="PassportNumber">
+              <DxLabel :text="$t('patientPage.passportNumber')" :show-colon="false" />
             </DxSimpleItem>
           </DxGroupItem>
-          <DxSimpleItem
-            data-field="dateOfBirth"
-            data-type="date"
-            editor-type="dxDateBox"
-          >
-            <DxLabel :text="$t('patientPage.birthday')" :show-colon="false" />
-          </DxSimpleItem>
-          <DxSimpleItem
-            data-field="dateOfBirth"
-            data-type="date"
-            editor-type="dxDateBox"
-          >
-            <DxLabel :text="$t('patientPage.birthday')" :show-colon="false" />
+          <DxEmptyItem />
+          <DxGroupItem :col-count="3">
+            <DxSimpleItem data-field="">
+              <DxLabel
+                :text="$t('patientPage.citizenStatus')"
+                :show-colon="false"
+              />
+            </DxSimpleItem>
+            <DxSimpleItem data-field="phone1">
+              <DxLabel
+                :text="$t('patientPage.phoneNumber')"
+                :show-colon="false"
+              />
+            </DxSimpleItem>
+            <DxSimpleItem data-field="phone2">
+              <DxLabel
+                :text="$t('patientPage.secondPhoneNumber')"
+                :show-colon="false"
+              />
+            </DxSimpleItem>
+          </DxGroupItem>
+        </DxGroupItem>
+        <DxEmptyItem />
+        <!-------------------- CitizenStatus, PhoneNumber, SecondPhoneNumber ---------->
+        <DxSimpleItem template="horizont-line" />
+        <DxEmptyItem />
+        <DxGroupItem :col-count="2">
+          <DxSimpleItem data-field="" editor-type="dxSelectBox">
+            <DxLabel :text="$t('patientPage.polyclinic')" :show-colon="false" />
           </DxSimpleItem>
         </DxGroupItem>
-        <DxEmptyItem/>
-        <DxGroupItem :col-count="3">
+        <DxEmptyItem />
+        <DxSimpleItem template="horizont-line" />
+        <DxEmptyItem />
+        <!-------------------- Group, Note ----------------->
+        <DxGroupItem :col-count="2">
+          <DxGroupItem>
+            <DxSimpleItem
+              data-field="applicatGroupId"
+              editor-type="dxSelectBox"
+            >
+              <DxLabel :show-colon="false" :text="$t('patientPage.group')" />
+            </DxSimpleItem>
+            <DxEmptyItem />
+            <DxSimpleItem data-field="" css-class="note-height">
+              <DxLabel :show-colon="false" :text="$t('patientPage.note')" />
+            </DxSimpleItem>
+          </DxGroupItem>
+        </DxGroupItem>
+        <!------------------ Region, City, Area, House, Street, Apartment, -------------------------->
+        <!-- <DxGroupItem>
           <DxSimpleItem data-field="">
-            <DxLabel
-              :text="$t('patientPage.citizenStatus')"
-              :show-colon="false"
-            />
+            <DxLabel :text="$t('patientPage.region')" />
           </DxSimpleItem>
-          <DxSimpleItem data-field="phone1">
-            <DxLabel
-              :text="$t('patientPage.phoneNumber')"
-              :show-colon="false"
-            />
-          </DxSimpleItem>
-          <DxSimpleItem data-field="phone2">
-            <DxLabel
-              :text="$t('patientPage.secondPhoneNumber')"
-              :show-colon="false"
-            />
-          </DxSimpleItem>
-        </DxGroupItem>
-        </DxGroupItem>
+        </DxGroupItem> -->
+        <template #horizont-line>
+          <div class="horizont-line" />
+        </template>
       </DxForm>
     </div>
   </div>

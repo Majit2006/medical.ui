@@ -105,8 +105,8 @@
         </DxGroupItem>
         <DxEmptyItem />
         <DxSimpleItem template="horizont-line" />
-        <DxGroupItem>
-          <DxSimpleItem data-field="" editor-type="dxSelectBox">
+        <DxGroupItem :col-count="2">
+          <DxSimpleItem data-field="" editor-type="dxSelectBox" >
             <DxLabel :show-colon="false" :text="$t('patientPage.group')" />
           </DxSimpleItem>
           <DxEmptyItem />
