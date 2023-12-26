@@ -31,7 +31,7 @@
           </DxGroupItem>
         </DxGroupItem>
         <DxEmptyItem />
-        <!------------------- Gender, Birthday, PassportNumber -------->
+        <!------------------- Gender, Birthday, PassportNumber,SecondPhoneNumber,CitizenStatus-------->
         <DxGroupItem>
           <DxGroupItem :col-count="3">
             <DxGroupItem>
@@ -47,7 +47,10 @@
               <DxLabel :text="$t('patientPage.birthday')" :show-colon="false" />
             </DxSimpleItem>
             <DxSimpleItem data-field="PassportNumber">
-              <DxLabel :text="$t('patientPage.passportNumber')" :show-colon="false" />
+              <DxLabel
+                :text="$t('patientPage.passportNumber')"
+                :show-colon="false"
+              />
             </DxSimpleItem>
           </DxGroupItem>
           <DxEmptyItem />
@@ -73,8 +76,8 @@
           </DxGroupItem>
         </DxGroupItem>
         <DxEmptyItem />
-        <!-------------------- CitizenStatus, PhoneNumber, SecondPhoneNumber ---------->
         <DxSimpleItem template="horizont-line" />
+        <!------------Polyclinic------------->
         <DxEmptyItem />
         <DxGroupItem :col-count="2">
           <DxSimpleItem data-field="" editor-type="dxSelectBox">
