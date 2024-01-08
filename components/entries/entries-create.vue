@@ -57,11 +57,11 @@
           <DxSimpleItem template="horizont-line" />
           <DxEmptyItem />
           <DxGoupItem>
-           <DxSimpleItem template="additional-payment-title"/>
-                 <!-- <DxSimpleItem>
+            <DxSimpleItem template="additional-payment-title" />
+            <!-- <DxSimpleItem>
                   <DxLabel :text=/>
                  </DxSimpleItem> -->
-            </DxGoupItem>
+          </DxGoupItem>
         </DxGroupItem>
         <template #data-grid>
           <!-- :data-source="gridData" -->
@@ -72,11 +72,16 @@
             :column-auto-width="true"
             height="240px"
           >
-            <DxColumn data-field="id" :width="40" />
+            <DxColumn data-field="id" :width="50" />
             <DxColumn
               data-field="cabinet"
-              :width="40"
+              :width="80"
               :caption="$t('entriesPage.cabinet')"
+            />
+            <DxColumn
+              data-field="userId"
+              :width="80"
+              :caption="$t('entriesPage.employee')"
             />
           </DxDataGrid>
         </template>

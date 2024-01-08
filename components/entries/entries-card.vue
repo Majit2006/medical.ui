@@ -1,211 +1,143 @@
 <template>
   <div class="entries-card-wrapper">
-    <div class="panel-items">
+    <div class="panel-items fix-header">
       <div class="btn-wrapper">
-        <button class="new-entries">000000000000000</button>
-        <button class="save-btn">Сохранить</button>
+        <div class="entries-id">
+          <!-- {{ entry.applicantNumber }}/{{ entry.applicationNumber }} -->
+          Mk 000000 / 0000
+        </div>
+        <button @click="backHandler" class="back-btn panel-btn">
+          {{ $t("entriesPage.cancel") }}
+        </button>
       </div>
       <div>
         <div class="print-wrapper">
-          <button class="paid-btn">Оплачено</button>
-          <button class="print-btn" />
+          <!-- <button
+            v-if="permissionControler"
+            @click="openPaymentPopup"
+            class="paid-btn panel-btn"
+          >
+            {{ $t("entriesPage.pay") }}
+          </button> -->
+          <button class="print-btn panel-btn" />
         </div>
       </div>
     </div>
     <div class="component-wrapper">
-      <div>
-        <input class="input name" type="text" />
-      </div>
-      <div class="payment-info">
-        <div class="payment">
-          <input type="radio" name="radio1" id="answer1" value="yes" />
-          <label for="answer1">Без страховки (ТМТ)</label>
-        </div>
-        <div class="payment">
-          <input type="radio" name="radio1" id="answer2" value="no" />
-          <label for="answer2">Со страховкой (ТМТ)</label>
-        </div>
-        <div class="payment">
-          <input type="radio" name="radio1" id="answer3" value="yes" />
-          <label for="answer3">Иностранец ($)</label>
-        </div>
-
-        <div class="payment">
-          <input type="radio" name="radio1" id="answer4" value="no" />
-          <label for="answer4">Дипломат (ТМТ)</label>
-        </div>
-      </div>
-      <div class="horizont-line" />
-      <div class="select-box-wrapper">
-        <div>
-          <span>Кабинет</span>
-          <select name="" id="" class="input" type="text">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-          </select>
-        </div>
-        <div>
-          <span>Доктор</span>
-          <select name="" id="" class="input" type="text">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-          </select>
-        </div>
-      </div>
-      <div class="receptions-wrapper">
-        <p>Проводимые приемы, обследования, диагностика</p>
-        <select class="input" name="" id="">
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="mercedes">Mercedes</option>
-          <option value="audi">Audi</option>
-        </select>
-      </div>
-      <div class="date-input-wrapper">
-        <div>
-          <span>Дата</span>
-          <input class="input" name="trip-start" type="date" />
-        </div>
-        <div>
-          <span>Время</span>
-          <input class="input" name="trip-start" type="time" />
-        </div>
-      </div>
-      <div class="note-wrapper">
-        <span>Примечание</span>
-        <textarea class="input" name="" id="" cols="30" rows="10"></textarea>
-      </div>
-
-      <div class="horizont-line" />
-
-      <div class="additional-payment-wrapper">
-        <span class="additional-payment-title">Дополнительная оплата</span>
-        <p>Сумма</p>
-        <div class="sum-input-wrapper">
-          <input class="sum-input input" type="text" />
-          <div class="choose-currency-wrapper">
-            <div class="radio-input-wrapper">
-              <input type="radio" name="radio1" id="tmt" value="no" />
-              <label for="tmt">TMT</label>
-            </div>
-            <div class="radio-input-wrapper">
-              <input type="radio" name="radio1" id="dollar" value="no" />
-              <label for="dollar">$</label>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="note-wrapper">
-        <span>Примечание</span>
-        <textarea class="input" name="" id="" cols="30" rows="10"></textarea>
-      </div>
+      <DxForm
+        :show-validation-summary="true"
+        :show-colon-after-label="false"
+        label-location="top"
+      >
+        <DxGroupItem>
+          <DxSimpleItem data-field="asdf">
+            <DxLabel text="ad" />
+          </DxSimpleItem>
+          <DxSimpleItem data-field="asdf">
+            <DxLabel text="ad" />
+          </DxSimpleItem>
+          <DxSimpleItem data-field="asdf">
+            <DxLabel text="ad" />
+          </DxSimpleItem>
+        </DxGroupItem>
+      </DxForm>
     </div>
   </div>
 </template>
 <script lang="ts">
 import Vue from "vue";
+import DxButton from "devextreme-vue/button";
+import {
+  DxForm,
+  DxSimpleItem,
+  DxGroupItem,
+  DxEmptyItem,
+  DxLabel,
+} from "devextreme-vue/form";
 export default Vue.extend({
+  components: { 
+    DxForm,
+    DxSimpleItem,
+    DxGroupItem,
+    DxEmptyItem,
+    DxLabel,
+    DxButton,
+  },
   methods: {
-    cancelCreate() {
-      this.$router.go(-1);
+    backHandler() {
+      this.$router(-1);
     },
   },
 });
 </script>
+
 <style lang="scss" scoped>
 .entries-card-wrapper {
-  .new-entries {
+  .entries-id {
     padding: 12px 150px;
     border: none;
     border-radius: 10px;
     background-color: $custom-main-color;
     font-weight: $bold-weight;
+    color: $red;
     cursor: pointer;
   }
+
+  .panel-btn {
+    font-family: $fontFamily;
+
+    &:hover {
+      background-color: $light-blue;
+      color: $custom-main-color;
+      transition: 0.3s ease-in-out;
+
+      &:active {
+        box-shadow: inset 0 2px 2px 0 #333;
+        transition: 0.1s ease-out;
+        -webkit-box-shadow: inset 1px 1px 8px #333;
+        -moz-box-shadow: inset 1px 1px 8px #333;
+        box-shadow: inset 1px 1px 8px #333;
+      }
+    }
+  }
+
   .component-wrapper {
     row-gap: 40px;
     padding: 30px 50px;
   }
+
   .info-form-wrapper {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
   }
-  .payment-info {
-    display: flex;
-    column-gap: 60px;
-    margin-top: 6px;
-    .payment {
-      display: flex;
-      column-gap: 12px;
-    }
-    label {
-      font-weight: $bold-weight;
-    }
-  }
-  .chaeckbox-wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    column-gap: 12px;
-  }
-  .input {
-    height: 42px;
-    background-color: $input-bg-color;
-    border: none;
-    border-radius: 10px;
-    padding: 5px 12px;
-  }
+
   .entries-number {
     width: 20%;
   }
-  .name {
-    width: 40%;
-  }
+
   .print-wrapper {
     display: flex;
     column-gap: 30px;
     align-items: center;
   }
-  .save-btn,
-  .cancel-btn,
-  .paid-btn {
-    padding: 12px 40px;
-    border: none;
-    border-radius: 10px;
-    background-color: $custom-main-color;
-    font-weight: $bold-weight;
-    cursor: pointer;
-  }
-  .print-btn {
-    border: none;
-    border-radius: 10px;
-    padding: 18px 26px;
-    background-image: url("@/assets/images/printer.png");
-    background-size: 24px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: $custom-main-color;
-    cursor: pointer;
-  }
+
   .btn-wrapper {
     display: flex;
     column-gap: 10px;
   }
+
   .info-btn-wrapper {
     display: flex;
     column-gap: 30px;
   }
+
   .panel-items {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    flex-wrap: wrap;
   }
+
   .new-patient {
     font-weight: $bold-weight;
     padding: 12px 20px;
@@ -214,76 +146,134 @@ export default Vue.extend({
     margin-left: 20px;
     cursor: pointer;
   }
-  .select-box-wrapper {
-    display: flex;
-    column-gap: 54px;
-    div {
-      display: flex;
-      flex-direction: column;
-      row-gap: 10px;
-      width: 100%;
-    }
-  }
-  .receptions-wrapper {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    p {
-      font-weight: $bold-weight;
-    }
-  }
-  .date-input-wrapper {
-    display: flex;
-    column-gap: 50px;
-    div {
-      display: flex;
-      flex-direction: column;
-      row-gap: 10px;
-      width: 18%;
-    }
-  }
-  .note-wrapper {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    textarea {
-      padding: 10px 16px;
-      min-height: 180px;
-      resize: none;
-    }
-  }
-  .additional-payment-wrapper {
-    display: flex;
-    flex-direction: column;
 
-    .additional-payment-title {
-      margin-bottom: 20px;
-    }
-    .sum-input-wrapper {
-      display: flex;
-      align-items: center;
-      column-gap: 50px;
-      .sum-input {
-        width: 18%;
-      }
-      .choose-currency-wrapper {
-        display: flex;
-        column-gap: 30px;
-      }
-      .radio-input-wrapper {
-        display: flex;
-        column-gap: 10px;
-      }
-    }
-    p {
-      margin-bottom: 10px;
-      font-weight: $bold-weight;
+  .add-diagnosis {
+    padding: 12px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: $bold-weight;
+    white-space: nowrap;
+    cursor: pointer;
+
+    &:active {
+      box-shadow: inset 0 2px 2px 0 #333;
+      transition: 0.1s ease-out;
+      -webkit-box-shadow: inset 1px 1px 8px #333;
+      -moz-box-shadow: inset 1px 1px 8px #333;
+      box-shadow: inset 1px 1px 8px #333;
     }
   }
-  input[type="radio"],
+
+  .add-btn {
+    padding: 12px 42px;
+    border: none;
+    border-radius: 10px;
+    background-color: $input-bg-color;
+    font-weight: $bold-weight;
+    margin-top: 10px;
+    cursor: pointer;
+
+    &:active {
+      box-shadow: inset 0 2px 2px 0 #333;
+      transition: 0.1s ease-out;
+      -webkit-box-shadow: inset 1px 1px 8px #333;
+      -moz-box-shadow: inset 1px 1px 8px #333;
+      box-shadow: inset 1px 1px 8px #333;
+    }
+  }
+}
+
+.payment-radio-input {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 20px;
+}
+
+.payment-item {
+  display: flex;
+  column-gap: 10px;
+
   label {
     font-weight: $bold-weight;
     cursor: pointer;
+  }
+}
+
+.payment-checkbox-input {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.sum-wrapper {
+  margin-top: 20px;
+}
+
+.sum-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 2.3rem;
+
+  button {
+    padding: 0.9rem 3rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: $bold-weight;
+    cursor: pointer;
+  }
+}
+
+.space-block {
+  height: 100px;
+}
+
+.diagnosis-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.diagnosis-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 2.3rem;
+
+  button {
+    padding: 0.9rem 3rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: $bold-weight;
+    cursor: pointer;
+  }
+}
+
+@media all and (max-width: 870px) {
+  .entries-id {
+    padding: 14px 80px;
+  }
+}
+
+@media all and (max-width: 645px) {
+  .panel-items {
+    row-gap: 10px;
+  }
+}
+
+@media all and (max-width: 630px) {
+  .entries-id {
+    display: none;
+  }
+
+  .save-btn {
+    padding: 14px 28px;
   }
 }
 </style>

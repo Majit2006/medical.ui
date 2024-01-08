@@ -132,4 +132,4 @@ export default Vue.extend({
   }
 }
 </style>
-~/infrastructure/interfaces/administration/ICabinet
+<!-- ~/infrastructure/interfaces/administration/ICabinet -->

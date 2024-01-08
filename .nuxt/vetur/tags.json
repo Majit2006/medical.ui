@@ -1,4 +1,10 @@
 {
+  "BulletinCard": {
+    "description": "Auto imported from components/bulletin/bulletin-card.vue"
+  },
+  "BulletinDataGrid": {
+    "description": "Auto imported from components/bulletin/bulletin-data-grid.vue"
+  },
   "AdminBulletinCard": {
     "description": "Auto imported from components/admin-bulletin/admin-bulletin-card.vue"
   },
@@ -7,12 +13,6 @@
   },
   "AdminBulletinCreate": {
     "description": "Auto imported from components/admin-bulletin/admin-bulletin.create.vue"
-  },
-  "BulletinCard": {
-    "description": "Auto imported from components/bulletin/bulletin-card.vue"
-  },
-  "BulletinDataGrid": {
-    "description": "Auto imported from components/bulletin/bulletin-data-grid.vue"
   },
   "CabinetsCabinetCard": {
     "description": "Auto imported from components/cabinets/cabinet-card.vue"
@@ -118,6 +118,24 @@
   },
   "PatientsEntriesPatientEntryDataGrid": {
     "description": "Auto imported from components/patients/entries/patient-entry-data-grid.vue"
+  },
+  "StatisticsCashDataGrid": {
+    "description": "Auto imported from components/statistics/cash-statistic/cash-data-grid.vue"
+  },
+  "StatisticsCashStatistic": {
+    "description": "Auto imported from components/statistics/cash-statistic/cash-statistic.vue"
+  },
+  "StatisticsEntryDataGrid": {
+    "description": "Auto imported from components/statistics/entry-statistic/entry-data-grid.vue"
+  },
+  "StatisticsEntryStatistic": {
+    "description": "Auto imported from components/statistics/entry-statistic/entry-statistic.vue"
+  },
+  "StatisticsPatientDataGrid": {
+    "description": "Auto imported from components/statistics/patient-statistic/patient-data-grid.vue"
+  },
+  "StatisticsPatientStatistic": {
+    "description": "Auto imported from components/statistics/patient-statistic/patient-statistic.vue"
   },
   "PatientsEntriesResultEntryResultCard": {
     "description": "Auto imported from components/patients/entries/result/entry-result-card.vue"

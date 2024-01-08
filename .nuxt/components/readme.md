@@ -6,11 +6,11 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<BulletinCard>` | `<bulletin-card>` (components/bulletin/bulletin-card.vue)
+- `<BulletinDataGrid>` | `<bulletin-data-grid>` (components/bulletin/bulletin-data-grid.vue)
 - `<AdminBulletinCard>` | `<admin-bulletin-card>` (components/admin-bulletin/admin-bulletin-card.vue)
 - `<AdminBulletinDataGrid>` | `<admin-bulletin-data-grid>` (components/admin-bulletin/admin-bulletin-data-grid.vue)
 - `<AdminBulletinCreate>` | `<admin-bulletin-create>` (components/admin-bulletin/admin-bulletin.create.vue)
-- `<BulletinCard>` | `<bulletin-card>` (components/bulletin/bulletin-card.vue)
-- `<BulletinDataGrid>` | `<bulletin-data-grid>` (components/bulletin/bulletin-data-grid.vue)
 - `<CabinetsCabinetCard>` | `<cabinets-cabinet-card>` (components/cabinets/cabinet-card.vue)
 - `<CabinetsCabinetCreate>` | `<cabinets-cabinet-create>` (components/cabinets/cabinet-create.vue)
 - `<CabinetsCabinetDataGrid>` | `<cabinets-cabinet-data-grid>` (components/cabinets/cabinet-data-grid.vue)
@@ -46,5 +46,11 @@ You can directly use them in pages and other components without the need to impo
 - `<PatientsEntriesPatientEntryCard>` | `<patients-entries-patient-entry-card>` (components/patients/entries/patient-entry-card.vue)
 - `<PatientsEntriesPatientEntryCreate>` | `<patients-entries-patient-entry-create>` (components/patients/entries/patient-entry-create.vue)
 - `<PatientsEntriesPatientEntryDataGrid>` | `<patients-entries-patient-entry-data-grid>` (components/patients/entries/patient-entry-data-grid.vue)
+- `<StatisticsCashDataGrid>` | `<statistics-cash-data-grid>` (components/statistics/cash-statistic/cash-data-grid.vue)
+- `<StatisticsCashStatistic>` | `<statistics-cash-statistic>` (components/statistics/cash-statistic/cash-statistic.vue)
+- `<StatisticsEntryDataGrid>` | `<statistics-entry-data-grid>` (components/statistics/entry-statistic/entry-data-grid.vue)
+- `<StatisticsEntryStatistic>` | `<statistics-entry-statistic>` (components/statistics/entry-statistic/entry-statistic.vue)
+- `<StatisticsPatientDataGrid>` | `<statistics-patient-data-grid>` (components/statistics/patient-statistic/patient-data-grid.vue)
+- `<StatisticsPatientStatistic>` | `<statistics-patient-statistic>` (components/statistics/patient-statistic/patient-statistic.vue)
 - `<PatientsEntriesResultEntryResultCard>` | `<patients-entries-result-entry-result-card>` (components/patients/entries/result/entry-result-card.vue)
 - `<PatientsEntriesResultEntryResult>` | `<patients-entries-result-entry-result>` (components/patients/entries/result/entry-result.vue)

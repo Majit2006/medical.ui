@@ -15,7 +15,11 @@
       />
     </div>
     <div class="component-wrapper">
-      <DxForm label-location="top" ref="form">
+      <DxForm
+        label-location="top"
+        ref="form"
+        :show-colon-after-label="false"
+      >
         <DxGroupItem :col-count="3">
           <DxSimpleItem data-field="applicantNumber">
             <DxLabel
@@ -106,7 +110,7 @@
         <DxEmptyItem />
         <DxSimpleItem template="horizont-line" />
         <DxGroupItem :col-count="2">
-          <DxSimpleItem data-field="" editor-type="dxSelectBox" >
+          <DxSimpleItem data-field="" editor-type="dxSelectBox">
             <DxLabel :show-colon="false" :text="$t('patientPage.group')" />
           </DxSimpleItem>
           <DxEmptyItem />
@@ -129,7 +133,7 @@
               <DxLabel :show-colon="false" :text="$t('patientPage.area')" />
             </DxSimpleItem>
           </DxGroupItem>
-          <DxEmptyItem/>
+          <DxEmptyItem />
           <DxGroupItem :col-count="3">
             <DxSimpleItem data-field="">
               <DxLabel :show-colon="false" :text="$t('patientPage.street')" />
@@ -138,7 +142,10 @@
               <DxLabel :show-colon="false" :text="$t('patientPage.house')" />
             </DxSimpleItem>
             <DxSimpleItem data-field="">
-              <DxLabel :show-colon="false" :text="$t('patientPage.apartment')" />
+              <DxLabel
+                :show-colon="false"
+                :text="$t('patientPage.apartment')"
+              />
             </DxSimpleItem>
           </DxGroupItem>
         </DxGroupItem>
