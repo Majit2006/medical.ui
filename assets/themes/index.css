@@ -1,0 +1,134 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+*::-webkit-scrollbar {
+  width: 0px;
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: [object Object];
+}
+
+html,
+body {
+  font-family: "Helvetica Neue", "Segoe UI", helvetica, verdana, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.dx-button-normal {
+  width: 100px;
+  border: 0;
+  background: #fff;
+  border-color: #fff;
+}
+
+ё.dx-button:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+  border-color: transparent !important;
+}
+
+/* .dx-form {
+  margin-top: 39px;
+} */
+
+/* .dx-form-group-content {
+  width: 400px;
+} */
+/* .dx-form-group-content .dx-field-item-label {
+  padding-bottom: 15px;
+} */
+
+/* .dx-form-group {
+  margin-top: 20px; 
+} */
+
+.panel-items .dx-button-has-text:nth-child(1) {
+  color: red;
+}
+
+.component-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+.dx-header-row {
+  color: #fff;
+  background-color: #6ac3ef;
+}
+
+.horizont-line {
+  height: 1px;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+select {
+  cursor: pointer;
+}
+
+span {
+  font-weight: 700;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.edit-btn {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: url("@/assets/images/edit.png");
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+}
+
+.save-btn,
+.back-btn,
+.cancel-btn,
+.bulletin-statistic,
+.statistics-btn,
+.paid-btn {
+  padding: 12px 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+} /*# sourceMappingURL=index.css.map */
