@@ -1,7 +1,8 @@
 <template>
   <div class="cash-statistic-wrapper" id="chart-demo">
     <span>{{ $t("statistic.payment") }}</span>
-    <DxChart id="chart" :data-source="chartDataSource" pallette="Violet">
+    <DxChart id="chart" pallette="Violet">
+      <!-- :data-source="chartDataSource" -->
       <DxCommonSeriesSettings type="stackedbar" argument-field="date" />
       <DxSeries value-field="tmtPrice" :name="$t('statistic.currencyManat')" />
       <DxSeries
@@ -9,14 +10,14 @@
         :name="$t('statistic.currencyManat')"
         stack="Manat"
       />
-      <!-- <DxLegend
+      <DxLegend
         value-field="usdPrice"
         horizontal-alignment="right"
         :name="$t('statistic.currencyDollar')"
         stack="Dollar"
       >
         <DxBorder :visible="true" />
-      </DxLegend> -->
+      </DxLegend>
       <DxTooltip :enabled="true" />
     </DxChart>
   </div>
@@ -50,6 +51,14 @@ export default Vue.extend({
     DxTitle,
     DxSubtitle,
     DxTooltip,
+  },
+  data() {
+    return {
+      chartDataSource: new DataSource({
+        store:"id",
+        loudUrl:`${this.$dataApi.applicationObservationPayments}/count`
+      }),
+    };
   },
 });
 </script>
