@@ -12,7 +12,7 @@ export default {
   server: {
     // host: "192.168.101.196",
     // host: "192.168.0.101",
-    port: 1080,
+    port: 2080,
   },
   // Global page headers: https://go.nuxtjs.dev/config-headnode_modules\@nuxt\builder\dist\builder.js
   head: {

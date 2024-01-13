@@ -5,25 +5,25 @@
       <DxButton :text="$t('statistic.statistic')" />
     </div>
     <div class="component-wrapper">
-      <PatientStatisticBlock />
-      <EntryStatisticBlock />
-      <CashStatisticBlock />
+      <!-- <PatientStatisticBlock />
+        <EntryStatisticBlock />
+      <CashStatisticBlock /> -->
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import PatientStatisticBlock from "~/components/statistics/patient-statistic/patient-statistic.vue";
-import EntryStatisticBlock from "~/components/statistics/entry-statistic/entry-statistic.vue";
-import CashStatisticBlock from "~/components/statistics/cash-statistic/cash-statistic.vue";
+// import PatientStatisticBlock from "~/components/statistics/patient-statistic/patient-statistic.vue";
+// import EntryStatisticBlock from "~/components/statistics/entry-statistic/entry-statistic.vue";
+// import CashStatisticBlock from "~/components/statistics/cash-statistic/cash-statistic.vue";
 import DxButton from "devextreme-vue/button";
 
 export default Vue.extend({
   components: {
-    PatientStatisticBlock,
-    EntryStatisticBlock,
-    CashStatisticBlock,
+    // PatientStatisticBlock,
+    // EntryStatisticBlock,
+    // CashStatisticBlock, 
     DxButton,
   },
 });

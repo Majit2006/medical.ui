@@ -38,6 +38,9 @@ import {
   DxSubtitle,
   DxTooltip,
 } from "devextreme-vue/chart";
+// import moment from "moment";
+
+// import DataSource from "devextreme/data/data_source";
 export default Vue.extend({
   components: {
     DxChart,
@@ -52,20 +55,27 @@ export default Vue.extend({
     DxSubtitle,
     DxTooltip,
   },
-  data() {
-    return {
-      chartDataSource: new DataSource({
-        store:"id",
-        loudUrl:`${this.$dataApi.applicationObservationPayments}/count`
-      }),
-    };
-  },
+
+  // data() {
+  //   return {
+  //     chartDataSource: new DataSource({
+  //       store: this.$dxStore({
+  //         key: "id",
+  //         loudUrl: `${this.$dataApi.applicationObservationPayments}/count`,
+  //         customQueryParams: {
+  //           start: moment().startOf("month").format("YYY-MM-DD"),
+  //           end: moment(Date.now()).format("YYYY-MM-DD").replaceAll("/", "."),
+  //         },
+  //       }),
+  //     }),
+  //   };
+  // },
 });
 </script>
 <style lang="scss" scoped>
 #chart {
   width: 515px;
-  height: 250px;
+  height: 250px; 
 }
 .show-statistic-btn {
   display: block;

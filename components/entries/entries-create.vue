@@ -50,18 +50,34 @@
             <DxSimpleItem data-field="">
               <DxLabel :text="$t('entriesPage.note')" />
             </DxSimpleItem>
+            <DxEmptyItem />
+            <DxSimpleItem template="add-polyclinic" />
+            <DxEmptyItem />
           </DxGroupItem>
 
           <DxSimpleItem template="data-grid" />
           <DxEmptyItem />
           <DxSimpleItem template="horizont-line" />
           <DxEmptyItem />
-          <DxGoupItem>
-            <DxSimpleItem template="additional-payment-title" />
-            <!-- <DxSimpleItem>
-                  <DxLabel :text=/>
-                 </DxSimpleItem> -->
-          </DxGoupItem>
+        </DxGroupItem>
+        <DxGroupItem>
+          <DxGroupItem :col-count="2">
+            <DxSimpleItem data-field="asdf">
+              <DxLabel :text="$t('entriesPage.patientName')" />
+            </DxSimpleItem>
+          </DxGroupItem>
+          <DxEmptyItem />
+          <DxGroupItem :col-count="3">
+            <DxSimpleItem data-field="asdf">
+              <DxLabel :text="$t('entriesPage.sum')" />
+            </DxSimpleItem>
+          </DxGroupItem>
+          <DxEmptyItem />
+          <DxGroupItem>
+            <DxSimpleItem data-field="asdf">
+              <DxLabel :text="$t('entriesPage.note')" />
+            </DxSimpleItem>
+          </DxGroupItem>
         </DxGroupItem>
         <template #data-grid>
           <!-- :data-source="gridData" -->
@@ -75,13 +91,33 @@
             <DxColumn data-field="id" :width="50" />
             <DxColumn
               data-field="cabinet"
-              :width="80"
+              :width="200"
               :caption="$t('entriesPage.cabinet')"
+              alignment="center"
             />
             <DxColumn
               data-field="userId"
-              :width="80"
+              :width="250"
               :caption="$t('entriesPage.employee')"
+              alignment="center"
+            />
+            <DxColumn
+              data-field="userId"
+              :width="120"
+              :caption="$t('entriesPage.date')"
+              alignment="center"
+            />
+            <DxColumn
+              data-field="userId"
+              :width="120"
+              :caption="$t('entriesPage.time')"
+              alignment="center"
+            />
+            <DxColumn
+              data-field="userId"
+              :width="120"
+              :caption="$t('entriesPage.time')"
+              alignment="center"
             />
           </DxDataGrid>
         </template>
@@ -92,6 +128,11 @@
         </template>
         <template #horizont-line>
           <div class="horizont-line" />
+        </template>
+        <template #add-polyclinic>
+          <button class="polyclinic-list-btn">
+            {{ $t("entriesPage.additionalPayment") }}
+          </button>
         </template>
       </DxForm>
     </div>
@@ -128,173 +169,127 @@ export default Vue.extend({
 });
 </script>
 <style lang="scss" scoped>
-.entries-create-wrapper {
-  .new-entries {
-    padding: 12px 150px;
+.component-wrapper {
+  row-gap: 40px;
+}
+
+.new-entries {
+  padding: 12px 150px;
+  border: none;
+  border-radius: 10px;
+  background-color: $custom-main-color;
+  font-weight: $bold-weight;
+  cursor: pointer;
+}
+
+.create-new-patient {
+  padding: 12px 150px;
+  border: none;
+  border-radius: 10px;
+  background-color: $custom-main-color;
+  font-weight: $bold-weight;
+}
+
+.panel-btn {
+  font-family: $fontFamily;
+
+  &:hover {
+    background-color: $light-blue;
+    color: $custom-main-color;
+    transition: 0.3s ease-in-out;
+
+    &:active {
+      box-shadow: inset 0 2px 2px 0 #333;
+      transition: 0.1s ease-out;
+      -webkit-box-shadow: inset 1px 1px 8px #333;
+      -moz-box-shadow: inset 1px 1px 8px #333;
+      box-shadow: inset 1px 1px 8px #333;
+    }
+  }
+}
+
+.btn-wrapper {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.note {
+  height: 200px !important;
+}
+.panel-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-number-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.polyclinic-list-btn {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: $input-bg-color;
+  font-weight: $bold-weight;
+  cursor: pointer;
+
+  &:active {
+    box-shadow: inset 0 2px 2px 0 #333;
+    transition: 0.1s ease-out;
+    -webkit-box-shadow: inset 1px 1px 8px #333;
+    -moz-box-shadow: inset 1px 1px 8px #333;
+    box-shadow: inset 1px 1px 8px #333;
+  }
+}
+
+.add-note-btn {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-weight: $bold-weight;
+  cursor: pointer;
+
+  &:active {
+    box-shadow: inset 0 2px 2px 0 #333;
+    transition: 0.1s ease-out;
+    -webkit-box-shadow: inset 1px 1px 8px #333;
+    -moz-box-shadow: inset 1px 1px 8px #333;
+    box-shadow: inset 1px 1px 8px #333;
+  }
+}
+
+.polyclinic-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 2.3rem;
+
+  button {
+    padding: 0.9rem 3rem;
     border: none;
     border-radius: 10px;
-    background-color: $custom-main-color;
     font-weight: $bold-weight;
     cursor: pointer;
+  }
+}
+
+@media all and (max-width: 870px) {
+  .create-new-patient {
+    padding: 12px 50px;
   }
 
-  .component-wrapper {
-    row-gap: 40px;
-    padding: 30px 50px;
+  .save-btn {
+    padding: 14px 30px;
   }
-  .info-form-wrapper {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-  }
-  .payment-info {
-    display: flex;
-    column-gap: 60px;
-    margin-top: 6px;
-    .payment {
-      display: flex;
-      column-gap: 12px;
-    }
-    label {
-      font-weight: $bold-weight;
-    }
-  }
-  .chaeckbox-wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    column-gap: 12px;
-  }
-  .input {
-    height: 42px;
-    background-color: $input-bg-color;
-    border: none;
-    border-radius: 10px;
-    padding: 5px 12px;
-  }
-  .entries-number {
-    width: 20%;
-  }
-  .name {
-    background-image: url("@/assets/images/magnifyingGlass.png");
-    background-repeat: no-repeat;
-    background-size: 24px;
-    background-position: right;
-    background-color: $input-bg-color;
-    &:focus {
-      background-image: none;
-      transform: 0.8s;
-    }
-    width: 40%;
-  }
+}
 
-  .save-btn,
-  .cancel-btn {
-    padding: 12px 40px;
-    border: none;
-    border-radius: 10px;
-    background-color: $custom-main-color;
-    font-weight: $bold-weight;
-    cursor: pointer;
-  }
-  .btn-wrapper {
-    display: flex;
-    column-gap: 10px;
-  }
-  .info-btn-wrapper {
-    display: flex;
-    column-gap: 30px;
-  }
-  .panel-items {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
-  .new-patient {
-    font-weight: $bold-weight;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 10px;
-    margin-left: 20px;
-    cursor: pointer;
-  }
-  .select-box-wrapper {
-    display: flex;
-    column-gap: 54px;
-    div {
-      display: flex;
-      flex-direction: column;
-      row-gap: 10px;
-      width: 100%;
-    }
-  }
-  .receptions-wrapper {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    p {
-      font-weight: $bold-weight;
-    }
-    .add-receptions-btn {
-      padding: 12px 42px;
-      border: none;
-      border-radius: 10px;
-      font-weight: $bold-weight;
-      cursor: pointer;
-    }
-  }
-  .date-input-wrapper {
-    display: flex;
-    column-gap: 50px;
-    div {
-      display: flex;
-      flex-direction: column;
-      row-gap: 10px;
-      width: 18%;
-    }
-  }
-  .note-wrapper {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    textarea {
-      padding: 10px 16px;
-      min-height: 180px;
-      resize: none;
-    }
-  }
-  .additional-payment-wrapper {
-    display: flex;
-    flex-direction: column;
-
-    .additional-payment-title {
-      margin-bottom: 20px;
-    }
-    .sum-input-wrapper {
-      display: flex;
-      align-items: center;
-      column-gap: 50px;
-      .sum-input {
-        width: 18%;
-      }
-      .choose-currency-wrapper {
-        display: flex;
-        column-gap: 30px;
-      }
-      .radio-input-wrapper {
-        display: flex;
-        column-gap: 10px;
-      }
-    }
-    p {
-      margin-bottom: 10px;
-      font-weight: $bold-weight;
-    }
-  }
-  input[type="radio"],
-  label {
-    font-weight: $bold-weight;
-    cursor: pointer;
+@media all and (max-width: 730px) {
+  .create-new-patient {
+    display: none;
   }
 }
 </style>

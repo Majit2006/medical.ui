@@ -41,7 +41,7 @@
             class="flex-box justify-content-center"
             v-if="textVisible"
           >
-            <span>{{ $t("employeePage.fileUploader") }}</span>
+            <!-- <span>{{ $t("employeePage.fileUploader") }}</span> -->
           </div>
         </div>
 

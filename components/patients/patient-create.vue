@@ -15,11 +15,7 @@
       />
     </div>
     <div class="component-wrapper">
-      <DxForm
-        label-location="top"
-        ref="form"
-        :show-colon-after-label="false"
-      >
+      <DxForm label-location="top" ref="form" :show-colon-after-label="false">
         <DxGroupItem :col-count="3">
           <DxSimpleItem data-field="applicantNumber">
             <DxLabel
@@ -152,6 +148,7 @@
         <template #horizont-line>
           <div class="horizont-line" />
         </template>
+
       </DxForm>
     </div>
   </div>
