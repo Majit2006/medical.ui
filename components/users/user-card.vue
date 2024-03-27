@@ -1,6 +1,7 @@
 <template>
   <div class="employee-card-wrapper">
     <div class="panel-items">
+      <h1>Hello</h1>
       <div class="btn-wrapper">
         <button class="users-id">{{ $route.params.id }}</button>
         <div v-if="toogleButtons" class="hidden-buttons">

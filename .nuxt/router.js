@@ -16,7 +16,7 @@ const _488ca040 = () => interopDefault(import('..\\pages\\observations\\index.vu
 const _c509488e = () => interopDefault(import('..\\pages\\patients\\index.vue' /* webpackChunkName: "pages/patients/index" */))
 const _1e0a4b6f = () => interopDefault(import('..\\pages\\review\\index.vue' /* webpackChunkName: "pages/review/index" */))
 const _69934378 = () => interopDefault(import('..\\pages\\statistics\\index.vue' /* webpackChunkName: "pages/statistics/index" */))
-const _3f00f1cc = () => interopDefault(import('..\\pages\\toleranceGroups\\index.vue' /* webpackChunkName: "pages/toleranceGroups/index" */))
+const _7bad3973 = () => interopDefault(import('..\\pages\\tolerance-groups\\index.vue' /* webpackChunkName: "pages/tolerance-groups/index" */))
 const _91ea5d36 = () => interopDefault(import('..\\pages\\users\\index.vue' /* webpackChunkName: "pages/users/index" */))
 const _6c33d9bc = () => interopDefault(import('..\\pages\\admin-bulletin\\create.vue' /* webpackChunkName: "pages/admin-bulletin/create" */))
 const _520a4378 = () => interopDefault(import('..\\pages\\admin-bulletin\\edit\\index.vue' /* webpackChunkName: "pages/admin-bulletin/edit/index" */))
@@ -31,6 +31,7 @@ const _799ed244 = () => interopDefault(import('..\\pages\\observations\\create.v
 const _12ed30b0 = () => interopDefault(import('..\\pages\\patients\\complaint\\index.vue' /* webpackChunkName: "pages/patients/complaint/index" */))
 const _39a46625 = () => interopDefault(import('..\\pages\\patients\\create.vue' /* webpackChunkName: "pages/patients/create" */))
 const _321dd7eb = () => interopDefault(import('..\\pages\\patients\\entries\\index.vue' /* webpackChunkName: "pages/patients/entries/index" */))
+const _21ae3fab = () => interopDefault(import('..\\pages\\tolerance-groups\\create.vue' /* webpackChunkName: "pages/tolerance-groups/create" */))
 const _5203a5f9 = () => interopDefault(import('..\\pages\\users\\create.vue' /* webpackChunkName: "pages/users/create" */))
 const _39517033 = () => interopDefault(import('..\\pages\\patients\\entries\\create.vue' /* webpackChunkName: "pages/patients/entries/create" */))
 const _34e2c1a4 = () => interopDefault(import('..\\pages\\patients\\entries\\result\\index.vue' /* webpackChunkName: "pages/patients/entries/result/index" */))
@@ -44,6 +45,7 @@ const _224146c5 = () => interopDefault(import('..\\pages\\entries\\_id.vue' /* w
 const _ea0a3274 = () => interopDefault(import('..\\pages\\forms\\_id.vue' /* webpackChunkName: "pages/forms/_id" */))
 const _609bab70 = () => interopDefault(import('..\\pages\\observations\\_id.vue' /* webpackChunkName: "pages/observations/_id" */))
 const _0d6ef861 = () => interopDefault(import('..\\pages\\patients\\_id.vue' /* webpackChunkName: "pages/patients/_id" */))
+const _0c10fc9b = () => interopDefault(import('..\\pages\\tolerance-groups\\_id.vue' /* webpackChunkName: "pages/tolerance-groups/_id" */))
 const _0577e90d = () => interopDefault(import('..\\pages\\users\\_id.vue' /* webpackChunkName: "pages/users/_id" */))
 
 const emptyFn = () => {}
@@ -106,9 +108,9 @@ export const routerOptions = {
     component: _69934378,
     name: "statistics"
   }, {
-    path: "/toleranceGroups",
-    component: _3f00f1cc,
-    name: "toleranceGroups"
+    path: "/tolerance-groups",
+    component: _7bad3973,
+    name: "tolerance-groups"
   }, {
     path: "/users",
     component: _91ea5d36,
@@ -166,6 +168,10 @@ export const routerOptions = {
     component: _321dd7eb,
     name: "patients-entries"
   }, {
+    path: "/tolerance-groups/create",
+    component: _21ae3fab,
+    name: "tolerance-groups-create"
+  }, {
     path: "/users/create",
     component: _5203a5f9,
     name: "users-create"
@@ -217,6 +223,10 @@ export const routerOptions = {
     path: "/patients/:id",
     component: _0d6ef861,
     name: "patients-id"
+  }, {
+    path: "/tolerance-groups/:id?",
+    component: _0c10fc9b,
+    name: "tolerance-groups-id"
   }, {
     path: "/users/:id",
     component: _0577e90d,

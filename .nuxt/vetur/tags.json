@@ -1,13 +1,4 @@
 {
-  "AdminBulletinCard": {
-    "description": "Auto imported from components/admin-bulletin/admin-bulletin-card.vue"
-  },
-  "AdminBulletinDataGrid": {
-    "description": "Auto imported from components/admin-bulletin/admin-bulletin-data-grid.vue"
-  },
-  "AdminBulletinCreate": {
-    "description": "Auto imported from components/admin-bulletin/admin-bulletin.create.vue"
-  },
   "BulletinCard": {
     "description": "Auto imported from components/bulletin/bulletin-card.vue"
   },
@@ -22,6 +13,18 @@
   },
   "CabinetsCabinetDataGrid": {
     "description": "Auto imported from components/cabinets/cabinet-data-grid.vue"
+  },
+  "AdminBulletinCard": {
+    "description": "Auto imported from components/admin-bulletin/admin-bulletin-card.vue"
+  },
+  "AdminBulletinDataGrid": {
+    "description": "Auto imported from components/admin-bulletin/admin-bulletin-data-grid.vue"
+  },
+  "AdminBulletinCreate": {
+    "description": "Auto imported from components/admin-bulletin/admin-bulletin.create.vue"
+  },
+  "Calendar": {
+    "description": "Auto imported from components/calendar/calendar.vue"
   },
   "DoctorEntryCard": {
     "description": "Auto imported from components/doctor-entries/doctor-entry-card.vue"
@@ -80,9 +83,6 @@
   "PatientsPatientDataGrid": {
     "description": "Auto imported from components/patients/patient-data-grid.vue"
   },
-  "ToleranceGroupsDataGrid": {
-    "description": "Auto imported from components/tolerance-groups/tolerance-groups-data-grid.vue"
-  },
   "UsersUserCard": {
     "description": "Auto imported from components/users/user-card.vue"
   },
@@ -91,6 +91,15 @@
   },
   "UsersUserDataGrid": {
     "description": "Auto imported from components/users/user-data-grid.vue"
+  },
+  "ToleranceGroupsCard": {
+    "description": "Auto imported from components/tolerance-groups/tolerance-groups-card.vue"
+  },
+  "ToleranceGroupsCreate": {
+    "description": "Auto imported from components/tolerance-groups/tolerance-groups-create.vue"
+  },
+  "ToleranceGroupsDataGrid": {
+    "description": "Auto imported from components/tolerance-groups/tolerance-groups-data-grid.vue"
   },
   "AdminBulletinStatistic": {
     "description": "Auto imported from components/admin-bulletin/bulletin-statistic/bulletin-statistic.vue"
@@ -101,23 +110,14 @@
   "DoctorEntryForm": {
     "description": "Auto imported from components/doctor-entries/form/doctor-entry-form.vue"
   },
-  "EntriesStatistic": {
-    "description": "Auto imported from components/entries/statistic/statistic.vue"
-  },
   "PageGuideBlock": {
     "description": "Auto imported from components/page/guide/block.vue"
   },
+  "EntriesStatistic": {
+    "description": "Auto imported from components/entries/statistic/statistic.vue"
+  },
   "PatientsComplaint": {
     "description": "Auto imported from components/patients/complaint/complaint.vue"
-  },
-  "PatientsEntriesPatientEntryCard": {
-    "description": "Auto imported from components/patients/entries/patient-entry-card.vue"
-  },
-  "PatientsEntriesPatientEntryCreate": {
-    "description": "Auto imported from components/patients/entries/patient-entry-create.vue"
-  },
-  "PatientsEntriesPatientEntryDataGrid": {
-    "description": "Auto imported from components/patients/entries/patient-entry-data-grid.vue"
   },
   "StatisticsCashDataGrid": {
     "description": "Auto imported from components/statistics/cash-statistic/cash-data-grid.vue"
@@ -130,6 +130,15 @@
   },
   "StatisticsEntryStatistic": {
     "description": "Auto imported from components/statistics/entry-statistic/entry-statistic.vue"
+  },
+  "PatientsEntriesPatientEntryCard": {
+    "description": "Auto imported from components/patients/entries/patient-entry-card.vue"
+  },
+  "PatientsEntriesPatientEntryCreate": {
+    "description": "Auto imported from components/patients/entries/patient-entry-create.vue"
+  },
+  "PatientsEntriesPatientEntryDataGrid": {
+    "description": "Auto imported from components/patients/entries/patient-entry-data-grid.vue"
   },
   "StatisticsPatientDataGrid": {
     "description": "Auto imported from components/statistics/patient-statistic/patient-data-grid.vue"

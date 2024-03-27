@@ -84,11 +84,11 @@
     "_name": "_69934378"
   },
   {
-    "name": "toleranceGroups",
-    "path": "/toleranceGroups",
-    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\toleranceGroups\\\\index.vue",
-    "chunkName": "pages/toleranceGroups/index",
-    "_name": "_3f00f1cc"
+    "name": "tolerance-groups",
+    "path": "/tolerance-groups",
+    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\tolerance-groups\\\\index.vue",
+    "chunkName": "pages/tolerance-groups/index",
+    "_name": "_7bad3973"
   },
   {
     "name": "users",
@@ -189,6 +189,13 @@
     "_name": "_321dd7eb"
   },
   {
+    "name": "tolerance-groups-create",
+    "path": "/tolerance-groups/create",
+    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\tolerance-groups\\\\create.vue",
+    "chunkName": "pages/tolerance-groups/create",
+    "_name": "_21ae3fab"
+  },
+  {
     "name": "users-create",
     "path": "/users/create",
     "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\users\\\\create.vue",
@@ -278,6 +285,13 @@
     "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\patients\\\\_id.vue",
     "chunkName": "pages/patients/_id",
     "_name": "_0d6ef861"
+  },
+  {
+    "name": "tolerance-groups-id",
+    "path": "/tolerance-groups/:id?",
+    "component": "C:\\\\Users\\\\Majit\\\\Desktop\\\\Projects\\\\medical.ui\\\\pages\\\\tolerance-groups\\\\_id.vue",
+    "chunkName": "pages/tolerance-groups/_id",
+    "_name": "_0c10fc9b"
   },
   {
     "name": "users-id",

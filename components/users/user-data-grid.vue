@@ -12,41 +12,17 @@
     >
       <DxSearchPanel :visible="true" :width="240" placeholder="Search..." />
       <DxColumn data-field="id" :width="40" caption="ID" />
-      <DxColumn
-        data-field="phone"
-        caption="Тел. номерphone"
-        data-type="string"
-      />
-      <DxColumn
-        data-field="lastNamre"
-        caption="Ф.И.О сотрудника"
-        alignment="left"
-      />
-      <DxColumn
-        data-field="jobPositionId"
-        caption="Должность"
-        data-type="string"
-      >
-        <DxLookup
-          value-expr="id"
-          display-expr="name"
-          :data-source="jobDataSource"
-        />
+      <!-- <DxColumn data-field="phone" caption="Тел. номерphone" data-type="string" />
+      <DxColumn data-field="lastNamre" caption="Ф.И.О сотрудника" alignment="left" />
+      <DxColumn data-field="jobPositionId" caption="Должность" data-type="string">
+        <DxLookup value-expr="id" display-expr="name" :data-source="jobDataSource" />
       </DxColumn>
       <DxColumn data-field="cabinetId" caption="Кабинет">
-        <DxLookup
-          value-expr="id"
-          display-expr="name"
-          :data-source="cabinetDataSource"
-        ></DxLookup>
+        <DxLookup value-expr="id" display-expr="name" :data-source="cabinetDataSource"></DxLookup>
       </DxColumn>
       <DxColumn data-field="roleId" caption="Допуск">
-        <DxLookup
-          value-expr="id"
-          display-expr="name"
-          :data-source="roleDataSource"
-        ></DxLookup>
-      </DxColumn>
+        <DxLookup value-expr="id" display-expr="name" :data-source="roleDataSource"></DxLookup>
+      </DxColumn> -->
       <DxColumn :width="100" :buttons="editButtons" type="buttons" />
     </DxDataGrid>
   </div>
@@ -76,8 +52,8 @@ export default Vue.extend({
     return {
       dataSource: new DataSource({
         store: this.$dxStore({
-          key: "id",
           loadUrl: this.$dataApi.users,
+          key: "id",
         }),
       }),
       jobDataSource: this.$dxStore({
@@ -143,9 +119,11 @@ export default Vue.extend({
   margin-bottom: 10px;
   width: 100%;
 }
+
 .component-wrapper {
   padding: 10px;
 }
+
 .search-input {
   width: 400px;
   height: 30px;
@@ -164,21 +142,25 @@ export default Vue.extend({
     border: 1px solid $light-blue;
   }
 }
+
 .panel-btn {
   background-color: $custom-main-color;
   border-radius: 10px;
   cursor: pointer;
 }
+
 .add {
   font-weight: $bold-weight;
   padding: 8px 42px;
   border: none;
 }
+
 .add:hover {
   background-color: $light-blue;
   color: $custom-main-color;
   transition: 0.3s ease-in-out;
 }
+
 .add:active {
   box-shadow: inset 0 2px 2px 0 #333;
   transition: 0.1s ease-out;
@@ -186,6 +168,7 @@ export default Vue.extend({
   -moz-box-shadow: inset 1px 1px 8px #333;
   box-shadow: inset 1px 1px 8px #333;
 }
+
 .sorting {
   padding: 8px 26px;
   border: none;

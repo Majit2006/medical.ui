@@ -1,10 +1,9 @@
 <template>
   <div class="user-panel">
     <MainLogo />
-    <!-- <div class="user-info">
-      <h3>Administrator</h3>
-      <p>Ady familiyasy</p>
-    </div> -->
+    <div class="user-info">
+      <h3>{{ $t("navigation.administration") }}</h3>
+    </div>
   </div>
 </template>
 

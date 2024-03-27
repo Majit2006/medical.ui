@@ -324,7 +324,7 @@ export default Vue.extend({
             name: "password",
             location: "after",
             options: {
-              icon: "/icons/svg/eye.svg",
+              icon: "/icons/material/eyeopen.svg",
               type: "default",
               onClick: () => this.changePasswordMode("password"),
             },
@@ -340,7 +340,7 @@ export default Vue.extend({
             name: "password",
             location: "after",
             options: {
-              icon: "/icons/svg/eye.svg",
+              icon: "/icons/svg/eyeopen.svg",
               type: "default",
               onClick: () => this.changePasswordMode("ConfirmPassword"),
             },

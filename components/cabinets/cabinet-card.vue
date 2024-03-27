@@ -2,11 +2,7 @@
   <div class="cabinet-card-wrapper">
     <div class="panel-items">
       <div>
-        <DxButton
-          @click="onSaveCabinet"
-          :text="$route.params.id"
-          width="400px"
-        />
+        <DxButton @click="onSaveCabinet" :text="$route.params.id" width="400px" />
         <DxButton text="Назад" @click="backHandler" width="120px" />
       </div>
     </div>
@@ -20,10 +16,7 @@
               </DxSimpleItem>
             </DxGroupItem>
             <DxGroupItem>
-              <DxSimpleItem
-                data-field="phone"
-                :editor-options="numberBoxOptions"
-              >
+              <DxSimpleItem data-field="phone" :editor-options="numberBoxOptions">
                 <DxLabel text="Номер телефона" :show-colon="false" />
               </DxSimpleItem>
             </DxGroupItem>
@@ -35,10 +28,7 @@
             <DxSimpleItem data-field="flat" :editor-options="numberBoxOptions">
               <DxLabel text="Этаж" :show-colon="false" />
             </DxSimpleItem>
-            <DxSimpleItem
-              data-field="number"
-              :editor-options="numberBoxOptions"
-            >
+            <DxSimpleItem data-field="number" :editor-options="numberBoxOptions">
               <DxLabel text="Номер кабинета" :show-colon="false" />
             </DxSimpleItem>
           </DxGroupItem>

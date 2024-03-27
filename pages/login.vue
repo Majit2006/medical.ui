@@ -8,29 +8,16 @@
         <DxForm :form-data.sync="signIn" ref="loginForm">
           <DxGroupItem :col-count="1">
             <DxGroupItem :col-count="1">
-              <DxSimpleItem
-                class="input"
-                data-field="name"
-                :show-colon="false"
-                :editor-options="{ placeholder: 'username' }"
-              />
+              <DxSimpleItem class="input" data-field="name" :show-colon="false"
+                :editor-options="{ placeholder: 'username' }" />
             </DxGroupItem>
             <DxGroupItem :col-count="1">
-              <DxSimpleItem
-                :editor-options="{ placeholder: 'Пароль', mode: 'password' }"
-                data-field="password"
-                :show-colon="false"
-              />
+              <DxSimpleItem :editor-options="{ placeholder: 'Пароль', mode: 'password' }" data-field="password"
+                :show-colon="false" />
             </DxGroupItem>
           </DxGroupItem>
         </DxForm>
-        <DxButton
-          @click="login"
-          :width="120"
-          text="Contained"
-          type="success"
-          class="btn-login"
-        />
+        <DxButton @click="login" :width="120" text="Contained" type="success" class="btn-login" />
       </div>
     </div>
   </div>
@@ -61,7 +48,7 @@ export default {
     DxButton,
   },
   props: {},
-  created() {},
+  created() { },
   methods: {
     login() {
       let result = this.$refs["loginForm"].instance.validate();
@@ -80,7 +67,6 @@ export default {
       }
     },
   },
-  mounted() {},
 };
 </script>
 <style scoped>
@@ -90,6 +76,7 @@ export default {
   align-items: center;
   flex-direction: column;
 }
+
 .Form-Logo {
   margin-top: 10px;
 }
@@ -106,6 +93,7 @@ h1 {
   margin-bottom: 10px;
   color: #009332;
 }
+
 h3 {
   margin-bottom: 10px;
   text-align: center;
